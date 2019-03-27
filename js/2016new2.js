@@ -196,7 +196,7 @@ var hh = {
     "Circumcision Knife"
   ],
   targetList: ['Harry "Smokey" Bagnato', 'Marv "Slick" Gonif'],
-  contractTargets: [],
+  contractTargets: showstopper.contractTargets,
   entry: [
     "Red Carpet",
     "Palace Garden",
