@@ -836,7 +836,27 @@ var ths = {
     "Machete"
   ],
   targetList: ["Rico Delgado", "Andrea Martinez", "Jorge Franco"],
-  contractTargets: [],
+  contractTargets: [
+	"Submarine guard Vulcano Baez Zelaya",
+	"Submarine cameras guard Livio Vigil Dominiquez",
+	"Submarine storage cave worker Tom E. Sheckley",
+	"Jorge's hut guy Dioscoro Avalos Posada",
+	"Hippo Whisperer Dan Buckman",
+	"Wine cellar maid Jules Prieto Gamez",
+	"Vanisher (Delgado's mansion basement)",
+	"Delgado's basement limping guard Javier Valenzuela Pedroza",
+	"Kitchen chef Day Nava Mercado",
+	"Hector Delgado",
+	"Catalina Delgado",
+	"Delgado's expo room guard Piperion Puente Alaniz",
+	"Grieving man Aldano Ruelas Pabon",
+	"Man in the lake warehouse Barbelo Salgado Ulibarri",
+	"Injured submarine engineer Mateo Luna Covarrubias",
+	"Martinez's house second floor soldier Ceferino Franco Cervantez",
+	"Martinez's assistant Paola Bravo Magana",
+	"Tourist with a camera Susan M. Delong",
+	"Hippie Torres Piombo"
+  ],
   entry: [
     "Village Bus Stop",
     "Village Hostel",
