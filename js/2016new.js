@@ -27,7 +27,7 @@ function createContainerObject() {
 };
 
 //Randomizes extra variables for the result
-function createExtrasList(exit) {
+function createExtrasList(exit, targets) {
 	if(!document.getElementById("restrictions").checked)
 		return [];
 		
@@ -45,6 +45,12 @@ function createExtrasList(exit) {
 	
 	if (Math.random() < 0.18) 
 		extras.push("Do not throw items as distractions.");
+	
+	if (Math.random() < 0.1 && targets.length > 1)
+	{
+		extras.push("Kill the targets in the given order.");
+		shuffle(targets);
+	}
 
 	if (Math.random() < 0.25)
 		extras.push("Do not use firearms as distractions or to destroy objects.");
@@ -180,8 +186,8 @@ function generate_result() {
 	const current_mission = createContainerObject();
 	
 	var roulette = containerToResult(current_mission);
-	roulette.extras = createExtrasList(roulette.exit);
 	roulette.targets = createTargetList(current_mission);
+	roulette.extras = createExtrasList(roulette.exit, roulette.targets);
 	roulette.weapons = createWeaponList(current_mission);
 	roulette.disguises = createDisguiseList(current_mission, roulette);
 	
