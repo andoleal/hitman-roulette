@@ -126,12 +126,12 @@ function createTargetList(container) {
 	var modeIndex = document.getElementById("modeselect");
 	var mode = modeIndex.options[modeIndex.selectedIndex].value;
 	if (mode == "CONTRACTS") {
-		var targetAmountCheck = Math.random();
-		var num_targets = 5;
-		if (targetAmountCheck < 0.84) num_targets--;
-		if (targetAmountCheck < 0.69) num_targets--;
-		if (targetAmountCheck < 0.39) num_targets--;
-		if (targetAmountCheck < 0.04) num_targets--;
+		var el = document.getElementById("min_targets");
+		var min_targets = parseInt(el.options[el.selectedIndex].value);
+		el = document.getElementById("max_targets");
+		var max_targets = parseInt(el.options[el.selectedIndex].value);
+		
+		var num_targets = Math.floor(Math.random() * (max_targets-min_targets+1) + min_targets);
 		
 		if (document.getElementById("main_in_contracts").checked)
 			container.contractTargets = container.contractTargets.concat(container.targetList);

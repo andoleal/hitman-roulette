@@ -38,12 +38,29 @@
 				<button type="button" id="redo_nappi" disabled = "true" class="nappi" onclick="history_redo()">Redo</button>
 				<br>
 				<section id="filters">
+					<br>
 					<select id="modeselect">
 						<option value="MAIN">Main mission</option>
 						<option value="CONTRACTS">Contracts mode</option>
 						<option value="ELUSIVE">Elusive target</option>
 					</select>
-					<br>
+					<br><br>
+					Min/Max Contracts targets
+					<select id="min_targets">
+						<option value=1>1</option>
+						<option value=2>2</option>
+						<option value=3>3</option>
+						<option value=4>4</option>
+						<option value=5>5</option>
+					</select>
+					<select id="max_targets">
+						<option value=5>5</option>
+						<option value=4>4</option>
+						<option value=3>3</option>
+						<option value=2>2</option>
+						<option value=1>1</option>
+					</select>
+					<br><br>
 					<input type="checkbox" id="disguise" value="true" checked>
 					<div class="tooltip"><label for="disguise">Specific disguises</label><span class="tooltiptext">Adds a random disguise requirement for each kill.</span></div>
 					<br>
