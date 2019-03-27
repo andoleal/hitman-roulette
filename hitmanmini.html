@@ -36,9 +36,26 @@
 				<br>
 				<button type="button" id="undo_nappi" disabled = "true" class="nappi" onclick="history_undo()">Undo</button>
 				<button type="button" id="redo_nappi" disabled = "true" class="nappi" onclick="history_redo()">Redo</button>
-				<br>
+				
+				<p id="chosenmission"></p>
+				<section id="resultsection" style="display:none">
+					<p id="start"></p>
+					<p id="kill1"></p>
+					<p id="kill2"></p>
+					<p id="kill3"></p>
+					<p id="kill4"></p>
+					<p id="kill5"></p>
+					<p id="exit"></p><br>
+					<p id="extra1" class="extras"></p>
+					<p id="extra2" class="extras"></p>
+					<p id="extra3" class="extras"></p>
+					<p id="extra4" class="extras"></p>
+					<p id="extra5" class="extras"></p>
+					<p id="extra6" class="extras"></p>
+					<p id="info"></p>
+				</section>
+				
 				<section id="filters">
-					<br>
 					<select id="modeselect">
 						<option value="MAIN">Main mission</option>
 						<option value="CONTRACTS">Contracts mode</option>
@@ -87,24 +104,6 @@
 					<br>
 					<input type="checkbox" id="main_in_contracts" value="true" checked>
 					<div class="tooltip"><label for="main_in_contracts">Main targets in Contracts</label><span class="tooltiptext">Adds main targets as candidates for "Contracts" rolls.</span></div>
-				</section>
-
-				<p id="chosenmission"></p>
-				<section id="resultsection">
-					<p id="start"></p>
-					<p id="kill1"></p>
-					<p id="kill2"></p>
-					<p id="kill3"></p>
-					<p id="kill4"></p>
-					<p id="kill5"></p>
-					<p id="exit"></p><br>
-					<p id="extra1" class="extras"></p>
-					<p id="extra2" class="extras"></p>
-					<p id="extra3" class="extras"></p>
-					<p id="extra4" class="extras"></p>
-					<p id="extra5" class="extras"></p>
-					<p id="extra6" class="extras"></p>
-					<p id="info"></p>
 				</section>
 				
 				<a id="themeswitch" href="#">Switch theme</a>

@@ -193,7 +193,7 @@ function writeEverything(result) {
 	var mode = modeIndex.options[modeIndex.selectedIndex].value;
 	if (result.missionTitle == "Freedom Fighters" && mode == "MAIN")
 		document.getElementById("info").innerHTML =
-			"To gain access to the exits, recreate the mission in Contracts mode.";
+			"To gain access to the exits, recreate the mission in Contracts mode.<br><br>";
 	else
 		document.getElementById("info").innerHTML = "";
 };
@@ -212,6 +212,10 @@ function generate_result() {
 
 //All the things that should happen when you make it go
 function button_MakeItGo(){
+	var section = document.getElementById('resultsection');
+	if (section.style.display == "none")
+		section.style.display = "";
+	
 	var result = generate_result();
 	writeEverything(result);
 	history_push(result);
