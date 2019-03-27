@@ -164,6 +164,7 @@ function writeEverything(result) {
 		else
 			document.getElementById("kill" + (i+1)).innerHTML = "";
 	}
+	shuffle(result.extras);
 	for(var i = 0; i < MAX_EXTRAS; ++i){ // extras
 		if(i < result.extras.length)
 			document.getElementById("extra" + (i+1)).innerHTML = result.extras[i];
