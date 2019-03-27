@@ -70,7 +70,15 @@ function createWeaponList(container) {
 	
 	for( var kill_type in killTypesMap )
 		if (document.getElementById(kill_type).checked)
-			kills = kills.concat(container[killTypesMap[kill_type]]);
+		{
+			var toadd = container[killTypesMap[kill_type]].slice();
+			if(toadd.length > 7)
+			{
+				shuffle(toadd);
+				toadd = toadd.slice(0, 6);
+			}
+			kills = kills.concat(toadd);
+		}
 	
 	var no_weapons_selected = !(kills.length > 0);
 	if (no_weapons_selected)

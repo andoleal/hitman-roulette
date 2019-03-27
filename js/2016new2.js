@@ -79,6 +79,52 @@ var generic = {
     "Fire",
     "Electricity",
     "Explosion (Accident)"
+  ],
+  // HITMAN 2016
+  unlocks: [
+	"Jaeger 7 Sniper Rifle (loud)",
+	"ICA Silverballer Pistol",
+	"TAC-SMG (loud)",
+	"HWK21 Covert Pistol",
+	"ICA Remote Explosive",
+	"ICA Proximity Explosive",
+	"Napoleon Blownaparte",
+	"Enram HV Shotgun",
+	"Proximity Explosive Duck",
+	"Jaeger 7 Covert Sniper Rifle",
+	"The Iconator (explosive)",
+	"Combat Knife",
+	"Remote Explosive Duck",
+	"Proximity CX Demo Block",
+	"Janbiya (melee)",
+	"Nna Obara's Machete",
+	"ICA Explosive Phone",
+	"Krugermeier Pistol",
+	"RS-15 Assault Rifle",
+	"Remote CX Demo Block",
+	"Custom 5mm Pistol",
+	"Shuriken",
+	"Concealable Knife",
+	"Sieger 300 Sniper Rifle",
+	"Masamune (katana)",
+	"Striker Pistol",
+	"TAC-SMG Covert"
+  ],
+  // HITMAN 2
+  unlocks2: [
+	"Fragmentation Grenade",
+	"Shashka A33 H",
+	"Sacrificial Knife",
+	"Bartoli 12G Short H",
+	"Druzhina 34",
+	"Rude Ruby",
+	"Broadsword",
+	"Measuring Tape",
+	"Explosive Pen",
+	"Fishing Line",
+	"Ice Pick",
+	"Piton (melee)",
+	"Quickdraw"
   ]
 };
 
@@ -1002,5 +1048,7 @@ var killTypesMap = {
   melee: "melee",
   firearm: "firearms",
   accident: "accidents",
-  generic: "kills"
+  generic: "kills",
+  unlocks: "unlocks",
+  unlocks2: "unlocks2"
 };
