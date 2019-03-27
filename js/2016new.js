@@ -125,6 +125,9 @@ function createTargetList(container) {
 		if (targetAmountCheck < 0.39) num_targets--;
 		if (targetAmountCheck < 0.04) num_targets--;
 		
+		if (document.getElementById("main_in_contracts").checked)
+			container.contractTargets = container.contractTargets.concat(container.targetList);
+		
 		shuffle(container.contractTargets);
 		targets = container.contractTargets.slice(0, num_targets);
 	}
@@ -164,6 +167,10 @@ function writeEverything(result) {
 		else
 			document.getElementById("kill" + (i+1)).innerHTML = "";
 	}
+	
+	if(result.targets.length < 1)
+		document.getElementById("kill1").innerHTML = "No targets available for this mode";
+	
 	shuffle(result.extras);
 	for(var i = 0; i < MAX_EXTRAS; ++i){ // extras
 		if(i < result.extras.length)

@@ -97,8 +97,6 @@ var showstopper = {
   ],
   targetList: ["Viktor Novikov", "Dalia Margolis"],
   contractTargets: [
-    "Viktor Novikov",
-    "Dalia Margolis",
     "Fashion designer Sebastian Sato",
     "Model Helmut Kruger",
     "FSB agent Max Decker",
@@ -152,7 +150,7 @@ var hh = {
     "Circumcision Knife"
   ],
   targetList: ['Harry "Smokey" Bagnato', 'Marv "Slick" Gonif'],
-  contractTargets: ['Harry "Smokey" Bagnato', 'Marv "Slick" Gonif'],
+  contractTargets: [],
   entry: [
     "Red Carpet",
     "Palace Garden",
@@ -199,8 +197,6 @@ var wot = {
   ],
   targetList: ["Silvio Caruso", "Francesca De Santis"],
   contractTargets: [
-    "Silvio Caruso",
-    "Francesca De Santis",
     "Butler Terenzio Endrizzi",
     "Golf coach Roberto Vargas",
     "Chef Marcello Ray",
@@ -267,7 +263,6 @@ var icon = {
   ],
   targetList: ["Dino Bosco"],
   contractTargets: [
-    "Dino Bosco",
     "Tech crew member near city gates Palmiro Russo",
     "Merchandise salesman Enrico Nucci",
     "Bosco's agent Sophia Wilde",
@@ -301,7 +296,6 @@ var landslide = {
   ],
   targetList: ["Marco Abiatti"],
   contractTargets: [
-    "Marco Abiatti",
     "Photographer Marcello Folliero",
     "Woman working at Abiatti's stand Alberta Arcuri",
     "Padre Francesco",
@@ -350,8 +344,6 @@ var agc = {
   ],
   targetList: ["Claus Hugo Strandberg", "Reza Zaydan"],
   contractTargets: [
-    "Claus Hugo Strandberg",
-    "Reza Zaydan",
     "Printing crew member Ashraf Raghib Mustafa",
     "Cameraman Jeff Baker",
     "School headmaster Shahin Abdul-Barr Maalouf",
@@ -409,8 +401,6 @@ var ahbos = {
   ],
   targetList: ["Matthieu Mendola", "Kong Tuo-Kwang"],
   contractTargets: [
-    "Matthieu Mendola",
-    "Kong Tuo-Kwang",
     "Shopkeeper by the well Yousef Shitrit",
     "Guitarist Jalal al Din Muti Said",
     "Fortune teller Zaki Diab",
@@ -447,8 +437,6 @@ var c27 = {
   ],
   targetList: ["Jordan Cross", "Ken Morgan"],
   contractTargets: [
-    "Jordan Cross",
-    "Ken Morgan",
     "Cross' Manager Dexy Barat",
     "Producer Max Liston",
     "Guitarist Heidi Santoro",
@@ -493,10 +481,6 @@ var ff = {
   melee: ["Cleaver", "Old Axe", "Kitchen Knife", "Screwdriver", "Fiber Wire"],
   targetList: ["Sean Rose", "Penelope Graves", "Ezra Berg", "Maya Parvati"],
   contractTargets: [
-    "Sean Rose",
-    "Penelope Graves",
-    "Ezra Berg",
-    "Maya Parvati",
     "Explosives specialist Quince Elliot",
     "Militia cook Robert Powell",
     "Point man Lloyd Burgess",
@@ -544,7 +528,6 @@ var si = {
   ],
   targetList: ["Yuki Yamazaki", "Erich Soders"],
   contractTargets: [
-    "Yuki Yamazaki",
     "Showering resort staff member Lowell Aucoin",
     "Dancing master Toshimi 'Sandā no ashi' Kaneko",
     "Stetson man Amos Dexter",
@@ -619,8 +602,6 @@ var ts = {
   ],
   targetList: ["Oybek Nabazov", "Sister Yulduz"],
   contractTargets: [
-    "Oybek Nabazov",
-    "Sister Yulduz",
     "Waiter outside the exhibition Robert Egg",
     "Cult bodyguard Akram",
     "Defecting cultist Jeff",
@@ -659,7 +640,7 @@ var ta = {
     "Fiber Wire"
   ],
   targetList: ["Craig Black", "Brother Akram"],
-  contractTargets: ["Craig Black", "Brother Akram"],
+  contractTargets: [],
   entry: ["Portico"],
   exit: ["Town Gate"],
   disguises: [
@@ -685,7 +666,7 @@ var pz = {
     "Fire Axe"
   ],
   targetList: ["Owen Cage", "Klaus Liebleid"],
-  contractTargets: ["Owen Cage", "Klaus Liebleid"],
+  contractTargets: [],
   entry: ["Infiltrating below the helipad"],
   exit: ["Snowmobile", "Hiking Route", "Cable Car"],
   disguises: [
@@ -722,7 +703,7 @@ var tfl = {
     "Old Axe"
   ],
   targetList: ["Robert Knox", "Sierra Knox"],
-  contractTargets: ["Robert Knox", "Sierra Knox"],
+  contractTargets: [],
   entry: [
     "Event Entrance",
     "Dolphin Fountain",
@@ -784,7 +765,7 @@ var ths = {
     "Machete"
   ],
   targetList: ["Rico Delgado", "Andrea Martinez", "Jorge Franco"],
-  contractTargets: ["Rico Delgado", "Andrea Martinez", "Jorge Franco"],
+  contractTargets: [],
   entry: [
     "Village Bus Stop",
     "Village Hostel",
@@ -845,7 +826,7 @@ var cag = {
     "Fire Axe"
   ],
   targetList: ["The Maelstrom", "Dawood Rangan", "Vanya Shah"],
-  contractTargets: ["The Maelstrom", "Dawood Rangan", "Vanya Shah"],
+  contractTargets: [],
   entry: [
     "Main Street",
     "Train",
@@ -899,7 +880,7 @@ var al = {
     "Hatchet"
   ],
   targetList: ["Janus", "Nolan Cassidy"],
-  contractTargets: ["Janus", "Nolan Cassidy"],
+  contractTargets: [],
   entry: [
     "Whittleton Creek",
     "Construction Area",
@@ -962,7 +943,7 @@ var tas = {
     "Scissors"
   ],
   targetList: ["Zoe Washington", "Sophia Washington"],
-  contractTargets: ["Zoe Washington", "Sophia Washington"],
+  contractTargets: [],
   entry: [
     "Harbor",
     "Chapel",
