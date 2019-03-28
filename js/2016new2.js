@@ -253,7 +253,21 @@ var wot = {
     "Screwdriver",
     "Fiber Wire"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+	Battle_Axe: "- In the ruins",
+    Old_Axe: "- In the shed behind the church",
+    Katana: "- Near the safe in the attic",
+    Fire_Axe: "Field lab<br>- Near the camera recordings, in the building<br>- Behind the first lab building<br>Mansion<br>- Near both of the lab entrances in the mansion<br>- Near the piano on the 1st floor, go through the door near the fire poker<br><br>- In the room with camera recordings above the ice cream shop",
+    Saber: "- Up the guarded stairs near the ice cream shop<br>- In the mansion near the grammophone",
+    Amputation_Knife: "- Near Plague Doctor suit",
+    Circumcision_Knife: "- Near Plague Doctor suit",
+    Combat_Knife: "- In the lab area, between the lab building and the other building<br>- Brother Akram's apartment kitchen",
+    Hatchet: "- In the building for gardeners",
+    Kitchen_Knife: "- In the morgue<br>- Mansion staff locker room<br>- On the second floor of the apartment against the hairdresser's shop<br>- Mansion kitchen<br>- ICA safehouse<br>- In the ice cream shop",
+    Letter_Opener: "- Francesca's office desk",
+    Screwdriver: "- 2 of them in the lab cave, near the building with the virus<br>- In the tunnel where Francesca meets the detective, in the room with a lot of sinks<br>- In the shed behind the church<br>- Near the grave of Caruso's mother<br>- In the building for gardeners<br>- In the room with camera recordings, near 'mansion security' start<br>- Same as above, but against the door of that room",
+    Fiber_Wire: ""
+  },
   targetList: ["Silvio Caruso", "Francesca De Santis"],
   contractTargets: [
     "Butler Terenzio Endrizzi",
