@@ -334,7 +334,14 @@ var icon = {
     "Screwdriver",
     "Fiber Wire"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+	Battle_Axe: "- Bosco's RV",
+    Cleaver: "- Ice cream shop building, second floor",
+    Fire_Axe: "- In the room with camera recordings above the ice cream shop",
+    Knife: "- Rocco! Get down here!",
+    Screwdriver: "- Set crew stand near Bosco's RV<br>- In the shop behind the above mentioned stand",
+    Fiber_Wire: ""
+  },
   targetList: ["Dino Bosco"],
   contractTargets: [
     "Tech crew member near city gates Palmiro Russo",
