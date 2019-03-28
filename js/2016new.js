@@ -155,6 +155,8 @@ function containerToResult(container) {
 	result.missionTitle = container.missionTitle;
 	result.entry = container.entry[Math.floor(Math.random()*container.entry.length)];
 	result.exit = container.exit[Math.floor(Math.random()*container.exit.length)];
+	result.melee = container.melee;
+	result.meleeLocations = container.meleeLocations;
 	return result;
 };
 
@@ -166,12 +168,23 @@ function writeEverything(result) {
 	
 	var MAX_TARGETS = 5, MAX_EXTRAS = 6;
 	
+	var meleeLocations = "";
+	
 	// Write to the HTML elements from the results object
 	for(var i = 0; i < MAX_TARGETS; ++i){ // kills
 		if(i < result.targets.length)
+		{
 			document.getElementById("kill" + (i+1)).innerHTML = 
 				"<p class='redtext'>" + result.targets[i]
 				+ "</p>: " + result.weapons[i] + result.disguises[i];
+			
+			if(result.melee.includes(result.weapons[i]))
+			{
+				var str = result.meleeLocations[result.weapons[i].replace(" ", "_")];
+				if(str != undefined && str.length > 3)
+					meleeLocations = meleeLocations + result.weapons[i] + "<br>" + str + "<br><br>";
+			}
+		}
 		else
 			document.getElementById("kill" + (i+1)).innerHTML = "";
 	}
@@ -196,6 +209,12 @@ function writeEverything(result) {
 			"To gain access to the exits, recreate the mission in Contracts mode.<br><br>";
 	else
 		document.getElementById("info").innerHTML = "";
+	
+	if(meleeLocations.length > 3)
+	{
+		var el_info = document.getElementById("info");
+		el_info.innerHTML = el_info.innerHTML + "<details><summary>Melee locations (click to show)</summary><br>"+ meleeLocations +"</details><br>";
+	}
 };
 
 function generate_result() {

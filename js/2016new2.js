@@ -141,6 +141,17 @@ var showstopper = {
     "Saber",
     "Hatchet"
   ],
+  meleeLocations: {
+    Screwdriver: "Floor 1<br>- Outside of the dressing area<br>- Outside of the museum room<br>- In the room with the reporter and the Battle Axe<br>- Near the catwalk entrances<br>- Outside near the wall against IAGO entrance<br>- In the shed near the dressing area<br>- At the Novikov and Decker meeting spot<br>Floor 2<br>- Against Sheik's suite<br>- Against the fireworks detonator (over the catwalk)<br>Floor 3<br>- Near Dalia's office<br>- At the Attic starting location",
+    Letter_Opener: "Floor 2<br>- Where Dalia and Victor come in case of 'Code 17'<br>- Sheik's suite<br>- In the room where one of the hoarders starts<br>- In the room next to the speedboat key<br>Floor 3<br>- Dalia's office",
+    Scissors: "Basement<br>- Security room<br>Floor 1<br>- 3 of them in the dressing area<br>- In the room against the bathroom with IAGO invitation<br>Floor 2<br>- In the second room in the Sheik's suite<br>Floor 3<br>- Dalia's bathroom<br>- Outside Dalia's office, on the balcony",
+    Kitchen_Knife: "Basement<br>- In the kitchen<br>- In the canteen<br>Floor 1<br>- In the kitchen and behind the bar<br>- In front of the shed near the dressing area<br>Floor 2<br>- Where the blue waiters are cooking sushi or whatever",
+    Fiber_Wire: "",
+    Fire_Axe: "Basement<br>- Near the basement entrance that's close to the kitchen<br>- In the locker room<br>- In the hallway outside of the locker room<br>Floor 1<br>- In the corner near the end of the catwalk<br>- Near the entrance to the kitchen<br>- In the shed outside of the dressing area<br>- Near the fireworks detonator<br>- In the opposite corner of the previous one<br>- Outside of the room where one of the hoarders starts<br>Floor 3<br>- In the attic, outside of the room with Vampire Magician disguise",
+    Battle_Axe: "Floor 1<br>- In the room with the reporter<br>- In a display case in the museum<br>- In the dressing area",
+    Saber: "Floor 1<br>- In one of the display cases in the museum<br>- In the dressing area",
+    Hatchet: "Floor 1<br>- Outside in the side garden against the museum<br>- Near the shed near IAGO entrance"
+  },
   targetList: ["Viktor Novikov", "Dalia Margolis"],
   contractTargets: [
     "Fashion designer Sebastian Sato",
@@ -195,6 +206,7 @@ var hh = {
     "Shuriken",
     "Circumcision Knife"
   ],
+  meleeLocations: showstopper.meleeLocations,
   targetList: ['Harry "Smokey" Bagnato', 'Marv "Slick" Gonif'],
   contractTargets: showstopper.contractTargets,
   entry: [
@@ -241,6 +253,7 @@ var wot = {
     "Screwdriver",
     "Fiber Wire"
   ],
+  meleeLocations: {},
   targetList: ["Silvio Caruso", "Francesca De Santis"],
   contractTargets: [
     "Butler Terenzio Endrizzi",
@@ -307,6 +320,7 @@ var icon = {
     "Screwdriver",
     "Fiber Wire"
   ],
+  meleeLocations: {},
   targetList: ["Dino Bosco"],
   contractTargets: [
     "Tech crew member near city gates Palmiro Russo",
@@ -340,6 +354,7 @@ var landslide = {
     "Letter Opener",
     "Cleaver"
   ],
+  meleeLocations: {},
   targetList: ["Marco Abiatti"],
   contractTargets: [
     "Photographer Marcello Folliero",
@@ -388,6 +403,7 @@ var agc = {
     "Folding Knife",
     "Fiber Wire"
   ],
+  meleeLocations: {},
   targetList: ["Claus Hugo Strandberg", "Reza Zaydan"],
   contractTargets: [
     "Printing crew member Ashraf Raghib Mustafa",
@@ -445,6 +461,7 @@ var ahbos = {
     "Screwdriver",
     "Fiber Wire"
   ],
+  meleeLocations: {},
   targetList: ["Matthieu Mendola", "Kong Tuo-Kwang"],
   contractTargets: [
     "Shopkeeper by the well Yousef Shitrit",
@@ -481,6 +498,7 @@ var c27 = {
     "Fiber Wire",
     "Sapper's Axe"
   ],
+  meleeLocations: {},
   targetList: ["Jordan Cross", "Ken Morgan"],
   contractTargets: [
     "Cross' Manager Dexy Barat",
@@ -525,6 +543,7 @@ var c27 = {
 var ff = {
   missionTitle: "Freedom Fighters",
   melee: ["Cleaver", "Old Axe", "Kitchen Knife", "Screwdriver", "Fiber Wire"],
+  meleeLocations: {},
   targetList: ["Sean Rose", "Penelope Graves", "Ezra Berg", "Maya Parvati"],
   contractTargets: [
     "Explosives specialist Quince Elliot",
@@ -572,6 +591,7 @@ var si = {
     "Screwdriver",
     "Fire Axe"
   ],
+  meleeLocations: {},
   targetList: ["Yuki Yamazaki", "Erich Soders"],
   contractTargets: [
     "Showering resort staff member Lowell Aucoin",
@@ -646,6 +666,7 @@ var ts = {
     "Fiber Wire",
     "Sapper's Axe"
   ],
+  meleeLocations: {},
   targetList: ["Oybek Nabazov", "Sister Yulduz"],
   contractTargets: [
     "Waiter outside the exhibition Robert Egg",
@@ -685,6 +706,7 @@ var ta = {
     "Screwdriver",
     "Fiber Wire"
   ],
+  meleeLocations: {},
   targetList: ["Craig Black", "Brother Akram"],
   contractTargets: [],
   entry: ["Portico"],
@@ -711,6 +733,7 @@ var pz = {
     "Screwdriver",
     "Fire Axe"
   ],
+  meleeLocations: {},
   targetList: ["Owen Cage", "Klaus Liebleid"],
   contractTargets: [],
   entry: ["Infiltrating below the helipad"],
@@ -748,6 +771,7 @@ var tfl = {
     "Fire Axe",
     "Old Axe"
   ],
+  meleeLocations: {},
   targetList: ["Robert Knox", "Sierra Knox"],
   contractTargets: [
 	"Press skybox guard Jorge Padilla",
@@ -835,6 +859,7 @@ var ths = {
     "Letter Opener",
     "Machete"
   ],
+  meleeLocations: {},
   targetList: ["Rico Delgado", "Andrea Martinez", "Jorge Franco"],
   contractTargets: [
 	"Submarine guard Vulcano Baez Zelaya",
@@ -916,6 +941,7 @@ var cag = {
     "Saber",
     "Fire Axe"
   ],
+  meleeLocations: {},
   targetList: ["The Maelstrom", "Dawood Rangan", "Vanya Shah"],
   contractTargets: [],
   entry: [
@@ -970,6 +996,7 @@ var al = {
     "Fire Axe",
     "Hatchet"
   ],
+  meleeLocations: {},
   targetList: ["Janus", "Nolan Cassidy"],
   contractTargets: [],
   entry: [
@@ -1033,6 +1060,7 @@ var tas = {
     "Aztec Necklace",
     "Scissors"
   ],
+  meleeLocations: {},
   targetList: ["Zoe Washington", "Sophia Washington"],
   contractTargets: [],
   entry: [
