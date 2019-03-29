@@ -602,7 +602,12 @@ var c27 = {
 var ff = {
   missionTitle: "Freedom Fighters",
   melee: ["Cleaver", "Kitchen Knife", "Screwdriver", "Fiber Wire"],
-  meleeLocations: {},
+  meleeLocations: {
+	Cleaver: "- Field kitchen",
+	Kitchen_Knife: "- Field kitchen",
+	Screwdriver: "- 2 of them behind the greenhouse<br>- In Ezra's shed<br>- Near the repaired van<br>- Outside of the premises, near the garage area",
+	Fiber_Wire: ""
+  },
   targetList: ["Sean Rose", "Penelope Graves", "Ezra Berg", "Maya Parvati"],
   contractTargets: [
     "Explosives specialist Quince Elliot",
