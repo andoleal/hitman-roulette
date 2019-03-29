@@ -806,7 +806,15 @@ var pz = {
     "Katana",
     "Fire Axe"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+	Fiber_Wire: "",
+    Scalpel: "- The room against the entrance from the helipad<br>- Hallway, near the room with hazmat suits<br>- Where Owen Cage starts",
+    Scissors: "- In the morgue near the camera recordings room<br>- On the top floor in the room near the stairs that's next to hazmat suits",
+    Kitchen_Knife: "- In the kitchen<br>- Where you can serve sushi to Yuki",
+    Cleaver: "- Where you can serve sushi to Yuki<br>- Near the morgue starting location",
+    Katana: "- Yuki's suite",
+    Fire_Axe: "- In the hallway from the staff rooms to the morgue"
+  },
   targetList: ["Owen Cage", "Klaus Liebleid"],
   contractTargets: [],
   entry: ["Infiltrating below the helipad"],
