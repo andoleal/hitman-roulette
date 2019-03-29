@@ -174,6 +174,9 @@ function writeEverything(result) {
 	for(var i = 0; i < MAX_TARGETS; ++i){ // kills
 		if(i < result.targets.length)
 		{
+			if(result.weapons[i] == undefined)
+				result.weapons[i] = result.weapons[0]
+			
 			document.getElementById("kill" + (i+1)).innerHTML = 
 				"<p class='redtext'>" + result.targets[i]
 				+ "</p>: " + result.weapons[i] + result.disguises[i];
