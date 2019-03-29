@@ -502,7 +502,15 @@ var ahbos = {
     "Screwdriver",
     "Fiber Wire"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+	Battle Axe: "- In the shop against the pipe you use to climb to rooftops<br>- Climb around the headmaster's building",
+    Cleaver: "- On the stand next to the snail stand starting location<br>- At the bazaar stands close to the rooftops building",
+    Folding Knife: "- Against the tunnel entrance",
+    Kitchen Knife: "- In shisha cafe behind the bar<br>- On the stand to the right from the consulate plaza starting location<br>- Vendors in the centre of the bazaar have some on their stands<br>- Snail stand starting location",
+    Scissors: "- Where the printing crew starts<br>- At the carpet stands at the bazaar<br>- Where you can poison Zaydan's food",
+    Screwdriver: "- Shisha cafe utility room<br>- Utility room near the radio you trigger to make the waiter deliver the food to Zaydan<br>- Near bazaar gates, as if you start in Gilded Cage and head right",
+    Fiber Wire: ""
+  },
   targetList: ["Matthieu Mendola", "Kong Tuo-Kwang"],
   contractTargets: [
     "Shopkeeper by the well Yousef Shitrit",
