@@ -375,7 +375,18 @@ var landslide = {
     "Letter Opener",
     "Cleaver"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+	Fiber_Wire: "",
+    Screwdriver: "- Next to the fireworks<br>- Near the stage on one of the boxes<br>- In the dead end alley near the private detective's bench<br>- In the shop against the butcher's<br>- In the apartment close to the church where Abiatti's schedule is",
+    Scissors: "- In the morgue<br>- In the farther shop up the wall to the right from the start<br>- In the shop against the butcher's<br>- In a shop against the back entrance of the city tower building<br>- ICA safehouse<br>- In the room up the stairs next to the ice cream shop",
+    Old_Axe: "- Enter the sewers from the beach and turn right on the first intersection<br>- At the city gates",
+    Kitchen_Knife: "- On the second floor of the apartment against the hairdresser's<br>- On the second floor of the ice cream shop building",
+    Saber: "- In the room where you can meet with Abiatti as a lawer",
+    Folding_Knife: "- In the room where you can meet with Abiatti as a lawer",
+    Fire_Axe: "- In the room with camera recordings in the ice cream shop building",
+    Letter_Opener: "- In the back room of the farther shop up the wall to the right from the start<br>- In the room where you can meet with Abiatti as a lawer",
+    Cleaver: "- In the back of the closer shop up the wall to the right from the start<br>- The butcher's refrigerator"
+  },
   targetList: ["Marco Abiatti"],
   contractTargets: [
     "Photographer Marcello Folliero",
