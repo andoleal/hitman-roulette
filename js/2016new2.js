@@ -550,11 +550,11 @@ var c27 = {
   meleeLocations: {
 	Kitchen_Knife: "- 2 of them in the kitchen<br>- At the bar in the lobby<br>- In the guarded room where the drummer is<br>- In the recording crew suite above the security room<br>- In the recording crew suite against the stairs<br>- 2 in the recording studio kitchen",
     Screwdriver: "- Basement 'passage' behind the fire extinguisher<br>- Basement hallway near the locker room<br>- Near the exterminator in the hotel<br>- Recording studio, near both of the stairs up<br>- Recording studio, near the guitar amplifier",
-    Fire_Axe: "Basement<br>- Linen room<br>- Near the stairs next to the locker room<br>Floor 1<br>- The room next to the kitchen storage<br>- Outside of the room with the ventilation system<br>Floor 2<br>- In the security room<br>- By the stairs next to the security room<br>Floor 3<br>- Outside of 47's suite<br>- By the stairs next to the Kross' party room<br>Floor 4<br>- Near both of the queen suites' entrances",
+    Fire_Axe: "Basement<br>- Linen room<br>- Near the stairs next to the locker room<br>Floor 1<br>- The room next to the kitchen storage<br>- Outside of the room with the ventilation system<br>Floor 2<br>- In the security room<br>- By the stairs next to the security room<br>Floor 3<br>- Outside of 47's suite<br>- By the stairs next to the Cross' party room<br>Floor 4<br>- Near both of the queen suites' entrances",
     Cleaver: "- In the kitchen, right behind you when you start there",
     Hatchet: "- Near the sleeping guard behind the hotel",
     Letter_Opener: "- 47's suite bedroom<br>- Recording studio office",
-    Katana: "- Top floor, near Jordan Kross' guitar",
+    Katana: "- Top floor, near Jordan Cross' guitar",
     Fiber_Wire: "",
     Sappers_Axe: "- In the basement near the stairs closest to the kitchen"
   },
