@@ -725,7 +725,7 @@ var ts = {
     "Fiber Wire",
     "Sapper's Axe"
   ],
-  meleeLocations: {},
+  meleeLocations: c27.meleeLocations,
   targetList: ["Oybek Nabazov", "Sister Yulduz"],
   contractTargets: [
     "Waiter outside the exhibition Robert Egg",
