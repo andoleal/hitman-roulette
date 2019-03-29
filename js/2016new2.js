@@ -804,7 +804,6 @@ var pz = {
     "Kitchen Knife",
     "Cleaver",
     "Katana",
-    "Screwdriver",
     "Fire Axe"
   ],
   meleeLocations: {},
