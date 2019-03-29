@@ -648,7 +648,6 @@ var si = {
   melee: [
     "Fiber Wire",
     "Scalpel",
-    "Scissors",
     "Kitchen Knife",
     "Cleaver",
     "Katana",
