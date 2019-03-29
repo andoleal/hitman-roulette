@@ -432,7 +432,6 @@ var agc = {
     "Kitchen Knife",
     "Cleaver",
     "Letter Opener",
-    "Folding Knife",
     "Fiber Wire"
   ],
   meleeLocations: {},
