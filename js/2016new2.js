@@ -434,7 +434,17 @@ var agc = {
     "Letter Opener",
     "Fiber Wire"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+	Battle_Axe: "- In the shop against the pipe you use to climb to rooftops<br>- Climb around the headmaster's building",
+    Fire_Axe: "- Consulate garage, near the tunnel entrance",
+    Saber: "- In the shop that has a tunnel entrance behind it<br>- Zaydan's office",
+    Scissors: "- In the building on the right to the consulate entrance<br>- At the carpet stands at the bazaar<br>- In the utility room close to where the printing crew starts",
+    Screwdriver: "- Consulate garage utility room<br>- In the consulate garage near the consulate entrance<br>- Consulate camera recordings room<br>- Consulate security building near the entrance<br>- In the utility room near the snail stand starting location<br>- Near the room with bazaar gates start/exit<br>- Near the wire plug next to the headmaster's building<br>- In the school where you can peek on the prisoner and in the room above it",
+    Kitchen_Knife: "- Consulate kitchen and it's back room<br>- Vendors in the centre of the bazaar have some on their stands<br>- Snail stand starting location",
+    Cleaver: "- On the stand next to the snail stand starting location<br>- Consulate kitchen<br>- At the bazaar stands close to the rooftops building",
+    Letter_Opener: "- In the consulate room that is next to Claus's office",
+    Fiber_Wire: ""
+  },
   targetList: ["Claus Hugo Strandberg", "Reza Zaydan"],
   contractTargets: [
     "Printing crew member Ashraf Raghib Mustafa",
