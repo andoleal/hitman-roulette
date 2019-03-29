@@ -180,7 +180,7 @@ function writeEverything(result) {
 			
 			if(result.melee.includes(result.weapons[i]))
 			{
-				var str = result.meleeLocations[result.weapons[i].replace(" ", "_")];
+				var str = result.meleeLocations[result.weapons[i].replace(" ", "_").replace("'", "")];
 				if(str != undefined && str.length > 3)
 					meleeLocations = meleeLocations + result.weapons[i] + "<br>" + str + "<br><br>";
 			}
