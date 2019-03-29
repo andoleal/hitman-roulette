@@ -775,7 +775,12 @@ var ta = {
     "Screwdriver",
     "Fiber Wire"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+    Fire_Axe: "- The room with camera recordings above the ice cream shop",
+    Kitchen_Knife: "- In the back of the first shop up the wall (above the start)<br>- The second floor apartment in the building against the hairdresser's<br>- Brother Akram's apartment kitchen<br>- The butcher's shop<br>- In the ice cream shop",
+    Screwdriver: "- In the church basement<br>- In the morgue<br>- The room with camera recordings above the ice cream shop",
+    Fiber_Wire: ""
+  },
   targetList: ["Craig Black", "Brother Akram"],
   contractTargets: [],
   entry: ["Portico"],
