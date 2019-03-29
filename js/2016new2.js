@@ -601,7 +601,7 @@ var c27 = {
 
 var ff = {
   missionTitle: "Freedom Fighters",
-  melee: ["Cleaver", "Old Axe", "Kitchen Knife", "Screwdriver", "Fiber Wire"],
+  melee: ["Cleaver", "Kitchen Knife", "Screwdriver", "Fiber Wire"],
   meleeLocations: {},
   targetList: ["Sean Rose", "Penelope Graves", "Ezra Berg", "Maya Parvati"],
   contractTargets: [
