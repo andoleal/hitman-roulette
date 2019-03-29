@@ -654,7 +654,15 @@ var si = {
     "Screwdriver",
     "Fire Axe"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+	Fiber_Wire: "",
+    Scalpel: "- In the morgue near the heart room",
+    Kitchen_Knife: "- In the kitchen<br>- Where you can serve sushi to Yuki",
+    Cleaver: "- Where you can serve sushi to Yuki",
+    Katana: "- Yuki's suite",
+    Screwdriver: "- Morgue storage room<br>- Outside. You could see it from the window against the director's office",
+    Fire_Axe: "- The hallway from the morgue to the garage"
+  },
   targetList: ["Yuki Yamazaki", "Erich Soders"],
   contractTargets: [
     "Showering resort staff member Lowell Aucoin",
