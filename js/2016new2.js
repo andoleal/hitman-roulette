@@ -770,10 +770,8 @@ var ts = {
 var ta = {
   missionTitle: "The Author",
   melee: [
-    "Battle Axe",
-    "Cleaver",
     "Fire Axe",
-    "Knife",
+    "Kitchen Knife",
     "Screwdriver",
     "Fiber Wire"
   ],
