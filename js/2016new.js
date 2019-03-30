@@ -131,6 +131,12 @@ function createTargetList(container) {
 		el = document.getElementById("max_targets");
 		var max_targets = parseInt(el.options[el.selectedIndex].value);
 		
+		if(max_targets < min_targets)
+		{
+			el.selectedIndex = 5 - min_targets;
+			max_targets = min_targets;
+		}
+		
 		var num_targets = Math.floor(Math.random() * (max_targets-min_targets+1) + min_targets);
 		
 		if (document.getElementById("main_in_contracts").checked)
