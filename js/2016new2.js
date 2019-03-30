@@ -852,7 +852,18 @@ var tfl = {
     "Fire Axe",
     "Old Axe"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+	Fiber_Wire: "",
+    Amputation_Knife: "- In the medical",
+    Battleaxe: "- In the room next to the helipad",
+    Cleaver: "- Food vendors near the stands<br>- Food tents near the speedboat key building<br>- Drivers' lounge kitchen",
+    Kitchen_Knife: "- Standalone food vendor near the stands<br>- Drivers' lounge kitchen and its back room<br>- Kronstadt starting locations room<br>- Kronstadt building, near the window you can use to climb the pipe to the Knox' laptop",
+    Scissors: "- Past the entrance check point, tent on the right<br>- Podium dressing room<br>- Drivers' lounge, room next to the security room<br>- Kronstadt building, room next to the lab (not shooting range)<br>- Robert Knox' office<br>- Small room next to the air conditioner room",
+    Screwdriver: "- The room near the Car Park agency pickup<br>- The room on the left if you start at Podium<br>- Near the fire hydrant on the road near medical<br>- Inside the Kronstadt pit, where there's a guy outside<br>- Aeon pit garage<br>- Sotteraneo pit garage<br>- Behind the Thwack lounge<br>- In the room that connects the expo and the aquarium<br>- Keycard locked room by the expo entrance<br>- The room right outside of the Kronstadt starting room<br>- The room below Robert Knox' laptop<br>- Kronstadt lab (not the shooting range)<br>- Press skybox, next to the stairs that's closer to the gates entrance<br>- The other skybox",
+    Starfish: "- In the aquarium, on the right side from the entrance",
+    Fire_Axe: "- Take the stairs down at the stands<br>- Near the entrance security station hallway<br>- The garage behind the expo",
+    Old_Axe: "- Behind the building near the medical, close to the ambulance exit"
+  },
   targetList: ["Robert Knox", "Sierra Knox"],
   contractTargets: [
 	"Press skybox guard Jorge Padilla",
