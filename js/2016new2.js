@@ -143,7 +143,7 @@ var showstopper = {
   ],
   meleeLocations: {
     Screwdriver: "Floor 1<br>- Outside of the dressing area<br>- Outside of the museum room<br>- In the room with the reporter and the Battle Axe<br>- Near the catwalk entrances<br>- Outside near the wall against IAGO entrance<br>- In the shed near the dressing area<br>- At the Novikov and Decker meeting spot<br>Floor 2<br>- Against Sheik's suite<br>- Against the fireworks detonator (over the catwalk)<br>Floor 3<br>- Near Dalia's office<br>- At the Attic starting location",
-    Letter_Opener: "Floor 2<br>- Where Dalia and Victor come in case of 'Code 17'<br>- Sheik's suite<br>- In the room where one of the hoarders starts<br>- In the room next to the speedboat key<br>Floor 3<br>- Dalia's office",
+    Letter_Opener: "Floor 2<br>- Where Dalia and Victor come in case of 'Code 17'<br>- Sheik's suite<br>- In the room where one of the hoarders starts<br>- In the room next to the speedboat key room<br>Floor 3<br>- Dalia's office",
     Scissors: "Basement<br>- Security room<br>Floor 1<br>- 3 of them in the dressing area<br>- In the room against the bathroom with IAGO invitation<br>Floor 2<br>- In the second room in the Sheik's suite<br>Floor 3<br>- Dalia's bathroom<br>- Outside Dalia's office, on the balcony",
     Kitchen_Knife: "Basement<br>- In the kitchen<br>- In the canteen<br>Floor 1<br>- In the kitchen and behind the bar<br>- In front of the shed near the dressing area<br>Floor 2<br>- Where the blue waiters are cooking sushi or whatever",
     Fiber_Wire: "",
@@ -561,7 +561,7 @@ var c27 = {
   targetList: ["Jordan Cross", "Ken Morgan"],
   contractTargets: [
     "Cross' Manager Dexy Barat",
-    "Producer Max Liston",
+    "Producer Wes Liston",
     "Guitarist Heidi Santoro",
     "Guest residing in room 208 Toby Hicks",
     "Former sitcom star Jackie Carrington",
@@ -1144,7 +1144,7 @@ var al = {
     "Arkian Robe",
     "Janus' Bodyguard",
     "Cassidy Bodyguard",
-    "Police Debuty",
+    "Police Deputy",
     "Construction Crew",
     "Politician's Assistant",
     "Server",
