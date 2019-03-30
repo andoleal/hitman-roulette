@@ -947,7 +947,6 @@ var ths = {
     "Kitchen Knife",
     "Cleaver",
     "Scissors",
-    "Barber Razor",
     "Letter Opener",
     "Machete"
   ],
