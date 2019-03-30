@@ -1039,7 +1039,21 @@ var cag = {
     "Saber",
     "Fire Axe"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+	Fiber_Wire: "",
+    Beak_Axe: "- Hard to explain, use <a href=\"https://hitman2maps.com/games/hitman2/mumbai/chasing-a-ghost/professional\">hitman2maps.com</a>",
+    Old_Axe: "- Near metal forge starting location",
+    Scissors: "- The tailor's shop<br>- Vanya's private train car<br>- Rangan's tower dressing room, the photoshoot starting location",
+    Amputation_Knife: "- In the train car that's near the meditation pond",
+    Screwdriver: "- In a container behind the train yard<br>- The train car closest to the laundry<br>- Chawls first floor apartment<br>- Near the stairs from Rangan's tower to its back yard<br>- In the center of the slums, near Tuk-Tuk exit<br>- 2 of them on the skywalk that's near the chawls, on the border of the map<br>- Rangan's tower first floor<br>- On the second floor of Rangan's tower where the security room is, near the elevator shaft<br>- On the movie set, near the fan<br>- Rangan's tower keycard locked floor, against the water cooler",
+    Barber_Razor: "- In the trainyard in the train car in the corner of the 'public' area<br>- Chawls first floor apartment<br>- Chawls starting location bathroom<br>- Rangan's tower bathroom up the stairs from the movie set",
+    Cleaver: "- In the train car with a bar<br>- Chawls second floor apartment<br>- Rangan's tower top (empty) floor",
+    Folding_Knife: "- Chawls second floor apartment<br>- The roof of the laundry office building",
+    Letter_Opener: "- Laundry office building first floor",
+    Kitchen_Knife: "- In the bakery in the slums (crowded)<br>- Rangan's tower canteen (the room near the photoshoot start)",
+    Saber: "- In Rangan's tower on the movie set floor",
+    Fire_Axe: "- On the second floor of Rangan's tower where the security room is, near the elevator shaft<br>- In Rangan's tower on the stairs near the keycard locked floor<br>- Rangan's tower top (empty) floor"
+  },
   targetList: ["The Maelstrom", "Dawood Rangan", "Vanya Shah"],
   contractTargets: [
 	"Rangan's tower first floor movie crew member Zara Purohit",
