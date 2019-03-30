@@ -1041,7 +1041,7 @@ var cag = {
   ],
   meleeLocations: {
 	Fiber_Wire: "",
-    Beak_Axe: "- Hard to explain, use <a href=\"https://hitman2maps.com/games/hitman2/mumbai/chasing-a-ghost/professional\">hitman2maps.com</a>",
+    Beak_Axe: "- Hard to explain, use <a href=\"https://hitman2maps.com/games/hitman2/mumbai/chasing-a-ghost/professional\" target=\"_blank\">hitman2maps.com</a>",
     Old_Axe: "- Near metal forge starting location",
     Scissors: "- The tailor's shop<br>- Vanya's private train car<br>- Rangan's tower dressing room, the photoshoot starting location",
     Amputation_Knife: "- In the train car that's near the meditation pond",
