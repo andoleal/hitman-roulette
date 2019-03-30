@@ -950,7 +950,15 @@ var ths = {
     "Letter Opener",
     "Machete"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+	Fiber_Wire: "",
+    Screwdriver: "- 2 of them in the submarine cave<br>- If you start at the mansion basement and go through the door on the right, and then into the room on the right<br>- Construction site, in the building against the crane<br>- On the second floor of the building at the construction site<br>- In front of Jorge's hut<br>- In the shed near the Jorge's hut<br>- On the second floors of the buildings that are against the statue",
+    Kitchen_Knife: "- Near the hippo pool<br>- In the room with camera recordings in the submarine cave<br>- Mansion's kitchen<br>- Near mansion basement starting location<br>- In the building against the building with music<br>- Lake village middle back building<br>- Delgado's mansion open air kitchen<br>- Delgado's mansion first floor bar",
+    Cleaver: "- Delgado's mansion kitchen refrigerator room<br>- Small building down the road from the statue",
+    Scissors: "- Storage cave near the submarine cave<br>- The building on the right from the bus stop start<br>- The building near the helipad<br>- The building against Martinez' house where you can buy glue<br>- Delgado's wife bathroom, mansion second floor",
+    Letter_Opener: "- Martinez' office desk",
+    Machete: "- In the coca plants between the coca lab and the cave entrance"
+  },
   targetList: ["Rico Delgado", "Andrea Martinez", "Jorge Franco"],
   contractTargets: [
 	"Submarine guard Vulcano Baez Zelaya",
