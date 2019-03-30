@@ -1029,7 +1029,6 @@ var cag = {
     "Beak Axe",
     "Old Axe",
     "Scissors",
-    "Measuring Tape",
     "Amputation Knife",
     "Screwdriver",
     "Barber Razor",
