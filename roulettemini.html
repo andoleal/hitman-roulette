@@ -49,7 +49,20 @@
 				<a id="themeswitch" href="#">Switch theme</a>
 
 				<script src="js/roulette.js"></script>
-
+				<script>
+				document.getElementById("themeswitch").onclick = function(){
+					var theme = document.getElementById("theme_css");
+					if (theme.href.match("css/BMmini.css")) {
+						theme.href = "css/BMminidark.css";
+					} else if (theme.href.match = "css/BMminidark.css") {
+						theme.href = "css/BMmini.css";
+					}
+					var section = document.getElementById('filters');
+					var nappi = document.getElementById('filterbutton');
+					section.style.display = "block"
+					nappi.innerHTML = "Hide options";
+				}
+				</script>
 		</section>
 		
 		
