@@ -180,12 +180,17 @@ function containerToResult(container) {
 	result.exit = container.exit[Math.floor(Math.random()*container.exit.length)];
 	result.melee = container.melee;
 	result.meleeLocations = container.meleeLocations;
+	result.map = container.map;
 	return result;
 };
 
 //Makes text appear
 function writeEverything(result) {
-	document.getElementById("chosenmission").innerHTML = result.missionTitle;
+	var maplink = "";
+	if(result.map != undefined)
+		maplink = " <span style=\"font-size:11px\">(<a href=" + result.map + " target=\"_blank\">map</a>)</span>"
+	
+	document.getElementById("chosenmission").innerHTML = result.missionTitle + maplink;
 	document.getElementById("start").innerHTML =
 		"<p class='bluetext'>Start</p>: " + result.entry;
 	
