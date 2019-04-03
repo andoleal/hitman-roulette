@@ -1241,7 +1241,6 @@ var tas = {
     "Custodian",
     "Raider",
     "Elite Guard",
-    "Musician",
     "Blake Nathaniel",
     "Entertainer",
     "Butler",
