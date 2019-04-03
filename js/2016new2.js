@@ -1116,7 +1116,7 @@ var al = {
   missionTitle: "Another Life",
   melee: [
     "Fiber Wire",
-    "Old Axe",
+    "Beak Axe",
     "Kitchen Knife",
     "Screwdriver",
     "Scissors",
