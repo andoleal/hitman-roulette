@@ -1124,7 +1124,16 @@ var al = {
     "Fire Axe",
     "Hatchet"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+	Fiber_Wire: "",
+    Beak_Axe: "- In the basement of the locked house with 2 garbage guys in the yard",
+    Kitchen_Knife: "- BBQ party house kitchen<br>- 2 of them in the Janus' house kitchen",
+    Screwdriver: "- Janus' house garage<br>- In a tree against the cop sleeping on a bench<br>- James Batty's backyard, near the boat",
+    Scissors: "- The second floor of the house with the robe for Janus, against the attic ladder",
+    Letter_Opener: "- The attic of the house with the robe for Janus",
+    Fire_Axe: "- James Batty's backyard, close to the construction site border",
+    Hatchet: "- In a mole hole in the bushes to the right from the construction site"
+  },
   targetList: ["Janus", "Nolan Cassidy"],
   contractTargets: [
 	"The politician Charles Blake III",
