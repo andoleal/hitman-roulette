@@ -1227,7 +1227,18 @@ var tas = {
     Scissors: "- Where you disable the necklace alarm, go to the other side of the balcony, out the door, turn right and go through the door ahead"
   },
   targetList: ["Zoe Washington", "Sophia Washington"],
-  contractTargets: [],
+  contractTargets: [
+	"Ceremony area initiate Dennis Bertrand",
+	"Zoe's bodyguard Aaron Barlow",
+	"Master of ceremonies Axel Phenniger",
+	"Morgue doctor Muriel Mortensen",
+	"Blake Nathaniel",
+	"Necklace alarm guy Darrel E. Granger",
+	"Butler Constantin",
+	"The Constant",
+	"Architect Marek Sinclair",
+	"Jebediah Block"
+  ],
   entry: [
     "Harbor",
     "Chapel",
