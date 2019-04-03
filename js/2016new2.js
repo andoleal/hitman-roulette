@@ -838,6 +838,38 @@ var pz = {
   ]
 };
 
+var nc = {
+  missionTitle: "Nightcall",
+  melee: [
+    "Fiber Wire",
+    "Folding Knife",
+    "Scissors",
+    "Kitchen Knife",
+    "Cleaver",
+    "Katana",
+    "Screwdriver"
+  ],
+  meleeLocations: {
+	Fiber_Wire: "",
+    Folding_Knife: "- First floor, near the house back door<br>- In the panic room",
+    Scissors: "- First floor bathroom",
+    Kitchen_Knife: "- In the kitchen",
+    Cleaver: "- In the kitchen",
+    Katana: "- In the panic room",
+    Screwdriver: "- Swimming pool, near the house door<br>- In the wall of the destroyed building near the truck with fuel cans"
+  },
+  targetList: ["Alma Reynard"],
+  contractTargets: [],
+  entry: ["Office", "Boat", "Beach"],
+  exit: ["Boat"],
+  disguises: [
+    "47 in his Suit",
+    "Bodyguard",
+	"47 in his Suit",
+    "Bodyguard"
+  ]
+};
+
 var tfl = {
   missionTitle: "The Finish Line",
   melee: [
@@ -1285,6 +1317,7 @@ var mission_names_map = {
   TS: ts,
   TA: ta,
   PZ: pz,
+  NC: nc,
   TFL: tfl,
   THS: ths,
   CAG: cag,
