@@ -1214,7 +1214,18 @@ var tas = {
     "Viking Axe",
     "Scissors"
   ],
-  meleeLocations: {},
+  meleeLocations: {
+	Fiber_Wire: "",
+    Battle_Axe: "- Chapel, second floor<br>- The top floor (the suite)",
+    Saber: "- Where you disable the necklace alarm, go to the other side of the balcony and out the door<br>- The second floor of the keep",
+    Old_Axe: "- The room up the stairs from the expo floor (the floor below the conclave)",
+    Screwdriver: "- In the room against the initiation door, go through the door next to the bathroom door<br>- In the room where Master of Ceremonies is<br>- In the morgue<br>- The room with camera recordings above the warehouse<br>- Expo floor, outside the room with camera recordings (near the keycard door)",
+    Sappers_Axe: "- The top floor (the suite)",
+    Cleaver: "- In the kitchen",
+    Scalpel: "- In the morgue",
+    Viking_Axe: "- Reception area, in the room with Entertainer disguise<br>- Keep, the floor where the butler is",
+    Scissors: "- Where you disable the necklace alarm, go to the other side of the balcony, out the door, turn right and go through the door ahead"
+  },
   targetList: ["Zoe Washington", "Sophia Washington"],
   contractTargets: [],
   entry: [
