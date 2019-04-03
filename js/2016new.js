@@ -4,8 +4,25 @@ function createContainerObject() {
 	
 	var missionIndex = document.getElementById("missionselect");
 	var mission_name = missionIndex.options[missionIndex.selectedIndex].value;
-	var randomMissionList = [showstopper,hh,wot,agc,icon,landslide,ahbos,c27,ff,si,ts,ta,pz,tfl,ths,cag,al,tas];
-//The Vector is missing due to way too many workarounds for dribbleondo to get that mission working properly.
+	
+	//The Vector is missing due to way too many workarounds for dribbleondo to get that mission working properly.
+	var season1 = [showstopper,hh,wot,agc,icon,landslide,ahbos,c27,ff,si,ts,ta,pz];
+	var season2 = [nc,tfl,ths,cag,al,tas];
+	
+	var randomMissionList = [];
+
+	if(mission_name === "S1")
+	{
+		randomMissionList = season1;
+		mission_name = "RANDOM";
+	}
+	else if(mission_name === "S2")
+	{
+		randomMissionList = season2;
+		mission_name = "RANDOM";
+	}
+	else
+		randomMissionList = randomMissionList.concat(season1).concat(season2);
 	
 	for (var prop in generic)
 		if (generic.hasOwnProperty(prop))
