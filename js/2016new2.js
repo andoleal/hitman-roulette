@@ -1352,3 +1352,52 @@ var killTypesMap = {
   unlocks: "unlocks",
   unlocks2: "unlocks2"
 };
+
+var _loadout = {
+  slot: [
+	"Lockpick",
+	"Lockpick",
+	"Coins",
+	"Coins",
+	"Fiber Wire",
+	"Remote Explosive Duck",
+	"Proximity Explosive Duck",
+	"Lethal melee",
+	"Non-Lethal melee",
+	"Lethal Poison Vial/Pills/Syringe",
+	"Emetic Poison Vial/Pills/Syringe",
+	"Proximity Taser",
+	"Remote Taser",
+	"EMP Charge",
+	"< nothing >"
+  ],
+  weapon: [
+    "Silverballer",
+	"Silverballer",
+	"Silverballer",
+    "Krugermeier",
+    "Striker / El Matador",
+    "SMG",
+    "Tranquilizer",
+    "Any Loud Pistol",
+	"< no weapon >"
+  ],
+  smuggle: [
+    "Lockpick",
+	"Coins",
+	"Explosive Duck",
+	"Lethal melee",
+	"Non-Lethal melee",
+	"Lethal Poison Vial/Pills",
+	"Emetic Poison Vial/Pills",
+	"Lethal Poison Syringe",
+	"Emetic Poison Syringe",
+	"Proximity Taser",
+	"Remote Taser",
+	"EMP Charge",
+	"Sniper Rifle",
+	"Shotgun",
+	"Assault Rifle",
+	"< nothing >"
+  ]
+};

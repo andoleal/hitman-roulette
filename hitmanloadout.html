@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<title>Hitman Roulette</title>
+		<link rel="stylesheet" href="css/mini.css" type="text/css" id="theme_css" />
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+		
+		<section id="roulettesection">
+
+				<select id="missionselect">
+					<option value="RANDOM">Random Mission</option>
+					<option value="S1">Season 1</option>
+					<option value="S2">Season 2</option>
+					<option value="TSS">The Showstopper</option>
+					<option value="HH">Holiday Hoarders</option>
+					<option value="WOT">World of Tomorrow</option>
+					<option value="ICON">The Icon</option>
+					<option value="LS">Landslide</option>
+					<option value="AGC">A Gilded Cage</option>
+					<option value="AHBOS">A House Built on Sand</option>
+					<option value="C27">Club 27</option>
+					<option value="FF">Freedom Fighters</option>
+					<option value="SI">Situs Inversus</option>
+					<option value="TS">The Source</option>
+					<option value="TA">The Author</option>
+					<option value="PZ">Patient Zero</option>
+					<option value="NC">Nightcall</option>
+					<option value="TFL">The Finish Line</option>
+					<option value="THS">Three-headed Serpent</option>
+					<option value="CAG">Chasing a Ghost</option>
+					<option value="AL">Another Life</option>
+					<option value="TAS">The Ark Society</option>
+				</select>
+				<button type="button" class="nappi" onclick="button_MakeItGoLoadout()">Make it go</button>
+				<a href="hitmanmini.html">Normal Roulette</a>
+				
+				<p id="chosenmission"></p>
+				<section id="resultsection" style="display:none">
+					<p id="start"></p>
+					<p id="kill1"></p>
+					<p id="kill2"></p>
+					<p id="kill3"></p>
+					<p id="kill4"></p>
+					<p id="kill5"></p>
+					<p id="exit"></p><br>
+					<p id="extra1" class="extras"></p>
+					<p id="extra2" class="extras"></p>
+					<p id="extra3" class="extras"></p>
+					<p id="extra4" class="extras"></p>
+					<p id="extra5" class="extras"></p>
+					<p id="extra6" class="extras"></p>
+					<p id="info"></p>
+				</section>
+				
+				<a id="themeswitch" href="#">Switch theme</a>
+
+				<script src="js/2016new.js"></script>
+				<script src="js/2016new2.js"></script> 
+				<script>
+				document.getElementById("themeswitch").onclick = function(){
+					var theme = document.getElementById("theme_css");
+					if (theme.href.match("css/mini.css")) {
+						theme.href = "css/minidark.css";
+					} else if (theme.href.match = "css/minidark.css") {
+						theme.href = "css/mini.css";
+					}
+					var section = document.getElementById('filters');
+					var nappi = document.getElementById('filterbutton');
+					section.style.display = "block"
+					nappi.innerHTML = "Hide options";
+				}
+				</script>
+
+		</section>
+		
+		
+	</body>
+</html>
