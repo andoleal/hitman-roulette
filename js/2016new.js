@@ -7,7 +7,7 @@ function createContainerObject() {
 	
 	//The Vector is missing due to way too many workarounds for dribbleondo to get that mission working properly.
 	var season1 = [showstopper,hh,wot,agc,icon,landslide,ahbos,c27,ff,si,ts,ta,pz];
-	var season2 = [nc,tfl,ths,cag,al,tas];
+	var season2 = [nc,tfl,ths,cag,al,tas,gh];
 	
 	var randomMissionList = [];
 

@@ -48,7 +48,8 @@ var suitStarts = [
   "Whittleton Creek",
   "Harbor",
   "Chapel",
-  "Keep"
+  "Keep",
+  "Bank Entrance"
 ];
 
 var disguiseExits = ["Ambulance", "Trash Truck"];
@@ -1322,6 +1323,61 @@ var tas = {
   ]
 };
 
+var gh = {
+  missionTitle: "Golden Handshake",
+  map: "https://hitman2maps.com/games/hitman2/new-york/golden-handshake/professional",
+  melee: [
+    "Screwdriver",
+    "Letter Opener",
+    "Fire Axe",
+    "Kitchen Knife",
+    "Fiber Wire",
+    "Scissors",
+    "Tanto",
+	"Antique Curved Knife",
+	"Burial Dagger",
+	"Hobby Knife"
+  ],
+  meleeLocations: {
+	Fiber_Wire: "",
+    Screwdriver: "Basement:<br>- Guarded room of deposit boxes<br>- The server room in IT<br>Floor 1<br>- In the locked hallway to the right from the entrance<br>- In the corner behind Ruby Red<br>Floor 3<br>- Near the guarded stairs to the CEO floor",
+    Letter_Opener: "",
+    Kitchen_Knife: "",
+    Fire_Axe: "",
+    Tanto: "",
+    Scissors: "",
+	Antique_Curved_Knife: "",
+	Burial_Dagger: "",
+	Hobby_Knife: ""
+  },
+  targetList: ["Athena Savalas"],
+  contractTargets: [
+    "Head Of Accounts Fabian Mann",
+    "Head Of Security Mateo Perez"
+  ],
+  entry: [
+    "Bank Entrance",
+	"Undercover in Deposit Box Room",
+    "Undercover at First Floor Mezzanine",
+    "Undercover on Investment Floor",
+	"Undercover in Audit Hall",
+    "Undercover in the Garage"
+  ],
+  exit: ["Bank Entrance", "Fire Exit", "Money Transferring Truck", "CEO's Exit"],
+  disguises: [
+    "47 in his Suit",
+    "Investment Banker",
+	"Fired Banker",
+    "Bank Teller",
+    "Bodyguard",
+	"Job Candidate",
+	"IT guy",
+    "Janitor",
+    "Security Guard",
+    "Bank Robber"
+  ]
+};
+
 var mission_names_map = {
   TSS: showstopper,
   HH: hh,
@@ -1341,7 +1397,8 @@ var mission_names_map = {
   THS: ths,
   CAG: cag,
   AL: al,
-  TAS: tas
+  TAS: tas,
+  GH: gh
 };
 
 var killTypesMap = {
