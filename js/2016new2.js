@@ -1369,6 +1369,12 @@ var _loadout = {
 	"Proximity Taser",
 	"Remote Taser",
 	"EMP Charge",
+	"The Big One",
+	"Remote Audio Distraction",
+	"Flash Grenade",
+	"Fragmentation Grenade",
+	"Explosive phone",
+	"Remote C4 block",
 	"< nothing >"
   ],
   weapon: [
@@ -1397,6 +1403,12 @@ var _loadout = {
 	"EMP Charge",
 	"Sniper Rifle",
 	"Shotgun",
+	"The Big One",
+	"Remote Audio Distraction",
+	"Flash Grenade",
+	"Fragmentation Grenade",
+	"Explosive phone",
+	"Remote C4 block",
 	"Assault Rifle",
 	"< nothing >"
   ]
