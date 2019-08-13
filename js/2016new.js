@@ -248,14 +248,45 @@ function writeEverything(result) {
 	}
 };
 
-function generate_result() {
+function writeLoadout(result) {
+	var maplink = "";
+	if(result.map != undefined)
+		maplink = " <span style=\"font-size:11px\">(<a href=" + result.map + " target=\"_blank\">map</a>)</span>"
+	
+	document.getElementById("chosenmission").innerHTML = result.missionTitle + maplink;
+	document.getElementById("start").innerHTML =
+		"<p class='bluetext'>Start</p>: " + result.entry;
+	
+	shuffle(_loadout.slot);
+	shuffle(_loadout.weapon);
+	shuffle(_loadout.smuggle);
+	
+	var smuggle_inx = 0;
+	while(_loadout.slot[0] == _loadout.smuggle[smuggle_inx]
+			|| _loadout.slot[1] == _loadout.smuggle[smuggle_inx])
+			smuggle_inx++;
+	
+	document.getElementById("kill1").innerHTML = "<p class='redtext'>Slot 1:</p> " + _loadout.slot[0];
+	document.getElementById("kill2").innerHTML = "<p class='redtext'>Slot 2:</p> " + (_loadout.slot[0] == _loadout.slot[1] ? _loadout.slot[2] : _loadout.slot[1]);
+	document.getElementById("kill3").innerHTML = "<p class='redtext'>Weapon:</p> " + _loadout.weapon[0];
+	document.getElementById("kill4").innerHTML = "<p class='bluetext'>Smuggle:</p> " + _loadout.smuggle[smuggle_inx];
+};
+
+function generate_result(loadout) {
+	if(loadout == undefined)
+		loadout = false;
+	
 	const current_mission = createContainerObject();
 	
 	var roulette = containerToResult(current_mission);
-	roulette.targets = createTargetList(current_mission);
-	roulette.extras = createExtrasList(roulette.exit, roulette.targets);
-	roulette.weapons = createWeaponList(current_mission);
-	roulette.disguises = createDisguiseList(current_mission, roulette);
+	
+	if(!loadout)
+	{
+		roulette.targets = createTargetList(current_mission);
+		roulette.extras = createExtrasList(roulette.exit, roulette.targets);
+		roulette.weapons = createWeaponList(current_mission);
+		roulette.disguises = createDisguiseList(current_mission, roulette);
+	}
 	
 	return roulette;
 };
@@ -269,6 +300,16 @@ function button_MakeItGo(){
 	var result = generate_result();
 	writeEverything(result);
 	history_push(result);
+}
+
+function button_MakeItGoLoadout(){
+	var section = document.getElementById('resultsection');
+	if (section.style.display == "none")
+		section.style.display = "";
+	
+	var result = generate_result(true);
+	writeLoadout(result);
+	//history_push(result);
 }
 
 //adds x to the history stack for a maximum of 20 most recent runs
