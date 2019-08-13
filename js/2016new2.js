@@ -1431,6 +1431,7 @@ var _loadout = {
 	"Flash Grenade",
 	"Fragmentation Grenade",
 	"Explosive phone",
+	"Electrocution phone",
 	"Remote C4 block",
 	"< nothing >"
   ],
@@ -1465,6 +1466,7 @@ var _loadout = {
 	"Flash Grenade",
 	"Fragmentation Grenade",
 	"Explosive phone",
+	"Electrocution phone",
 	"Remote C4 block",
 	"Assault Rifle",
 	"< nothing >"
