@@ -1353,7 +1353,15 @@ var gh = {
   targetList: ["Athena Savalas"],
   contractTargets: [
     "Head Of Accounts Fabian Mann",
-    "Head Of Security Mateo Perez"
+    "Head Of Security Mateo Perez",
+	"Investment Banker that does cocaine Jimmie Gladwin",
+	"CEO office Security Guard Dudley Claypool",
+	"Second floor bank teller Curt Reinhardt",
+	"Terminated banker Logan Jackson",
+	"Roaming bank employee Kaye Zahn",
+	"Second floor waiting area client Laree Parrish",
+	"Lobby guard Frank Winkelman",
+	"Lobby guard Denzil Keyes"
   ],
   entry: [
     "Bank Entrance",
