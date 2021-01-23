@@ -7,7 +7,8 @@ function createContainerObject() {
 	
 	//The Vector is missing due to way too many workarounds for dribbleondo to get that mission working properly.
 	var season1 = [showstopper,hh,wot,agc,icon,landslide,ahbos,c27,ff,si,ts,ta,pz];
-	var season2 = [nc,tfl,ths,cag,al,tas,gh,eots,iog,tlr,ast,abp];
+  var season2 = [nc,tfl,ths,cag,al,tas,gh,eots,iog,tlr,ast,abp];
+  var season3 = [ototw];
 	
 	var randomMissionList = [];
 
@@ -21,8 +22,13 @@ function createContainerObject() {
 		randomMissionList = season2;
 		mission_name = "RANDOM";
 	}
+	else if(mission_name === "S3")
+	{
+		randomMissionList = season3;
+		mission_name = "RANDOM";
+	}
 	else
-		randomMissionList = randomMissionList.concat(season1).concat(season2);
+		randomMissionList = randomMissionList.concat(season1).concat(season2).concat(season3);
 	
 	for (var prop in generic)
 		if (generic.hasOwnProperty(prop))
@@ -186,7 +192,7 @@ function containerToResult(container) {
 //Makes text appear
 function writeEverything(result) {
 	var maplink = "";
-	if(result.map != undefined)
+	if(result.map != undefined && result.map != "")
 		maplink = " <span style=\"font-size:11px\">(<a href=" + result.map + " target=\"_blank\">map</a>)</span>"
 	
 	document.getElementById("chosenmission").innerHTML = result.missionTitle + maplink;

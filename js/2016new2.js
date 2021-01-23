@@ -54,7 +54,8 @@ var suitStarts = [
   "Outside Chawl",
   "Resort Pier",
   "Shark Hut",
-  "Resort Pool"
+  "Resort Pool",
+  "Atrium Lobby"
 ];
 
 var disguiseExits = ["Ambulance", "Trash Truck"];
@@ -1511,6 +1512,47 @@ var abp = {
   disguises: al.disguises
 };
 
+
+var ototw = {
+  missionTitle: "On Top Of The World",
+  map: "",
+  melee: [
+    "Kitchen Knife",
+    "Screwdriver",
+    "Cleaver",
+    "Fire Axe",
+    "Letter Opener",
+    "Fiber Wire",
+    "Ornate Skimitar",
+    "Model of the Sceptre"
+  ],
+  meleeLocations: {},
+  targetList: ["Carl Ingram", "Marcus Stuyvesant"],
+  contractTargets: [],
+  entry: [
+    "Atrium Lobby",
+    "Meeting Room",
+    "Art Installtion",
+    "Guard Room",
+    "Penthouse"
+  ],
+  exit: ["Parachute", "Atrium Elevator", "Staff Elevator", "Helicopter", "Penthouse Elevator"],
+  disguises: [
+    "47 in his Suit",
+    "Art Crew",
+    "Event Security",
+    "Event Staff",
+    "Famous Chef",
+    "Helicopter Pilot",
+    "Ingram’s Bodyguard",
+    "Kitchen Staff",
+    "Maintenance Staff",
+    "Penthouse Guard",
+    "Penthouse Staff",
+    "The Assassin"
+  ]
+};
+
 var mission_names_map = {
   TSS: showstopper,
   HH: hh,
@@ -1536,7 +1578,8 @@ var mission_names_map = {
   IOG: iog,
   TLR: tlr,
   AST: ast,
-  ABP: abp
+  ABP: abp,
+  OTOTW: ototw
 };
 
 var killTypesMap = {
