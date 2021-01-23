@@ -49,7 +49,12 @@ var suitStarts = [
   "Harbor",
   "Chapel",
   "Keep",
-  "Bank Entrance"
+  "Bank Entrance",
+  "Steel Bridge",
+  "Outside Chawl",
+  "Resort Pier",
+  "Shark Hut",
+  "Resort Pool"
 ];
 
 var disguiseExits = ["Ambulance", "Trash Truck"];
@@ -67,6 +72,7 @@ var generic = {
   ],
   firearms: [
     "Pistol",
+    "Silenced Pistol",
     "Sniper Rifle",
     "Explosive (Weapon)",
     "Assault Rifle",
@@ -160,10 +166,10 @@ var showstopper = {
     "Model Helmut Kruger",
     "FSB agent Max Decker",
     "Sheik Salman Al-Ghazali",
-    "Reporter Liza McKenzie",
-    "Dalia's secretary Hailey Brennan",
-    "Viktor's bodyguard Kurt Donovan",
-    "Dalia's assistant Sophus Fatale"
+    "Reporter - Liza McKenzie",
+    "Dalia's secretary - Hailey Brennan",
+    "Viktor's bodyguard - Kurt Donovan",
+    "Dalia's assistant - Sophus Fatale"
   ],
   entry: [
     "Red Carpet",
@@ -277,13 +283,13 @@ var wot = {
     "Butler Terenzio Endrizzi",
     "Golf coach Roberto Vargas",
     "Chef Marcello Ray",
-    "Green plumber Luigi Saltatore",
+    "Green plumber - Luigi Saltatore",
     "Dr. Oscar Lafayette",
-    "Bohemian Torres Piombo",
-    "Private investigator Sal Falcone",
-    "Scientist with dongle Viana Buccho",
-    "Undertaker Fabio Pavione",
-    "Red plumber Mario Saltatore"
+    "Bohemian - Torres Piombo",
+    "Private investigator - Sal Falcone",
+    "Scientist with dongle - Viana Buccho",
+    "Undertaker - Fabio Pavione",
+    "Red plumber - Mario Saltatore"
   ],
   entry: [
     "Main Square",
@@ -398,14 +404,14 @@ var landslide = {
     "Photographer Marcello Folliero",
     "Woman working at Abiatti's stand Alberta Arcuri",
     "Padre Francesco",
-    "Red plumber Mario Fratelli",
-    "Green plumber Luigi Fratelli",
-    "Singer Cristina Dionisi",
-    "Abiatti's technician Roberto Mulo",
-    "Baker Dario Bronzo",
+    "Red plumber - Mario Fratelli",
+    "Green plumber - Luigi Fratelli",
+    "Singer Cristina - Dionisi",
+    "Abiatti's technician - Roberto Mulo",
+    "Baker - Dario Bronzo",
     "Renzo 'Not Rocco' Forte",
-    "Lawyer Salvatore Bravuomo",
-    "Bohemian Silvestro Pugliesi"
+    "Lawyer - Salvatore Bravuomo",
+    "Bohemian - Silvestro Pugliesi"
   ],
   entry: ["Promenade"],
   exit: ["Town Gate", "Speedboat", "Merchant's Car"],
@@ -1386,6 +1392,125 @@ var gh = {
   ]
 };
 
+var eots = {
+  missionTitle: "Embrace of the Serpent",
+  map: ths.map,
+  melee: ths.melee,
+  meleeLocations: ths.meleeLocations,
+  targetList: ["Blair Reddington"],
+  contractTargets: [],
+  entry: [
+    "Steel Bridge",
+    "Village Hostel",
+    "Village Bar",
+    "Construction Site",
+    "Coca Fields",
+    "Submarine Cave",
+    "Mansions Basement"
+  ],
+  exit: ths.exit,
+  disguises: ths.disguises
+};
+
+var iog = {
+  missionTitle: "Illusions of Grandeur",
+  map: cag.map,
+  meleeLocations: cag.meleeLocations,
+  melee: cag.melee,
+  targetList: ["Basil Carnaby"],
+  contractTargets: [],
+  entry: cag.entry,
+  exit: ["Boat", "Street", "Taxi", "Train", "Crows' Hideout"],
+  disguises: cag.disguises
+};
+
+var tlr = {
+  missionTitle: "The Last Resort",
+  map: "https://www.hitmaps.com/games/hitman2/haven-island/the-last-resort/professional",
+  melee: [
+    "Kitchen Knife",
+    "Screwdriver",
+    "Fire Axe",
+    "Cleaver",
+    "Hatchet",
+    "Letter Opener",
+    "Fiber Wire",
+    "Starfish"
+  ],
+  meleeLocations: {
+    Fiber_Wire: "",
+      Screwdriver: "",
+      Letter_Opener: "",
+      Kitchen_Knife: "",
+      Fire_Axe: "",
+      Cleaver: "",
+      Hatchet: "",
+      Starfish: ""
+    },
+  targetList: ["Tyson Williams", "Steven Bradley", "Ljudmilla Vetrova"],
+  contractTargets: [
+    "Shark Hut Staff - Bana Malhotra",
+    "Ljudmilla's Bodyguard - Cooper Gilliam",
+    "Steven Bradley's Bodyguard - Larry Cox",
+    "Tyson William's Bodyguard - Mike Thompson",
+    "Womanising Guard at Tiki Hut - Bharat Kurian",
+    "Villa Guard Sitting at the Red Light TV - Mike Osmond",
+    "Long Haired Man at Restaraunt - Liam Young",
+    "Tech Crew - James Firth",
+    "Private Villa Butler - Carl Lewis",
+    "Daring Shark Pool Man - Mathew Parker",
+    "The Thief - Leah Cooper",
+    "The New Tech Crew Guy - Luo Shoushan"
+  ],
+  entry: [
+    "Resort Pier",
+    "Shark Hut",
+    "Resort Pool",
+    "Undercover in the Resort Gym",
+    "Undercover in the Private Villa Pier",
+    "Undercover in the Restaurant's Kitchen"
+  ],
+  exit: ["Black Boat", "White Speedboat", "Seaplane"],
+  disguises: [
+    "47 in his Suit",
+    "Dr. Singh",
+    "Villa Guard",
+    "Resort Guard",
+    "Bodyguard",
+    "Resort Staff",
+    "Gas Suit",
+    "Tech Crew",
+    "Waiter",
+    "Ljudmilla's Bodyguard",
+    "Steven Bradley's Bodyguard",
+    "Tyson William's Bodyguard"
+  ]
+};
+
+var ast = {
+  missionTitle: "A Silver Tongue",
+  map: tfl.map,
+  melee: tfl.melee,
+  meleeLocations: tfl.meleeLocations,
+  targetList: ["Ajit Krish"],
+  contractTargets: [],
+  entry: tfl.entry,
+  exit: tfl.exit,
+  disguises: tfl.disguises
+};
+
+var abp = {
+  missionTitle: "A Bitter Pill",
+  map: al.map,
+  meleeLocations: al.meleeLocations,
+  melee: al.melee,
+  targetList: ["Galen Vholes"],
+  contractTargets: [],
+  entry: al.entry,
+  exit: al.exit,
+  disguises: al.disguises
+};
+
 var mission_names_map = {
   TSS: showstopper,
   HH: hh,
@@ -1406,7 +1531,12 @@ var mission_names_map = {
   CAG: cag,
   AL: al,
   TAS: tas,
-  GH: gh
+  GH: gh,
+  EOTS: eots,
+  IOG: iog,
+  TLR: tlr,
+  AST: ast,
+  ABP: abp
 };
 
 var killTypesMap = {

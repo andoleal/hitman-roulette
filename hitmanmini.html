@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
-	<head lang="en">
-		<title>Hitman Roulette</title>
-		<link rel="stylesheet" href="css/mini.css" type="text/css" id="theme_css" />
-		<meta charset="utf-8">
-	</head>
-	
-	<body>
-		
-		<section id="roulettesection">
+  <head lang="en">
+    <title>Hitman Roulette</title>
+    <link rel="stylesheet" href="css/mini.css" type="text/css" id="theme_css" />
+    <meta charset="utf-8" />
+  </head>
 
 				<select id="missionselect">
 					<option value="RANDOM">Random Mission</option>
@@ -34,6 +30,11 @@
 					<option value="AL">Another Life</option>
 					<option value="TAS">The Ark Society</option>
 					<option value="GH">Golden Handshake</option>
+          <option value="EOTS">Embrace of the Serpent</option>
+          <option value="IOG">Illusions of Grandeur</option>
+          <option value="TLR">The Last Resort</option>
+          <option value="AST">A Silver Tongue</option>
+          <option value="ABP">A Bitter Pill</option>
 				</select>
 				<button type="button" class="nappi" onclick="button_MakeItGo()">Make it go</button>
 				<button type="button" id="filterbutton" class="nappi" onclick="showFilters()">Hide options</button>
@@ -113,25 +114,24 @@
 				
 				<a id="themeswitch" href="#">Switch theme</a>
 
-				<script src="js/2016new.js"></script>
-				<script src="js/2016new2.js"></script> 
-				<script>
-				document.getElementById("themeswitch").onclick = function(){
-					var theme = document.getElementById("theme_css");
-					if (theme.href.match("css/mini.css")) {
-						theme.href = "css/minidark.css";
-					} else if (theme.href.match = "css/minidark.css") {
-						theme.href = "css/mini.css";
-					}
-					var section = document.getElementById('filters');
-					var nappi = document.getElementById('filterbutton');
-					section.style.display = "block"
-					nappi.innerHTML = "Hide options";
-				}
-				</script>
+      <a id="themeswitch" href="#">Switch theme</a>
 
-		</section>
-		
-		
-	</body>
+      <script src="js/2016new.js"></script>
+      <script src="js/2016new2.js"></script>
+      <script>
+        document.getElementById("themeswitch").onclick = function() {
+          var theme = document.getElementById("theme_css");
+          if (theme.href.match("css/mini.css")) {
+            theme.href = "css/minidark.css";
+          } else if ((theme.href.match = "css/minidark.css")) {
+            theme.href = "css/mini.css";
+          }
+          var section = document.getElementById("filters");
+          var nappi = document.getElementById("filterbutton");
+          section.style.display = "block";
+          nappi.innerHTML = "Hide options";
+        };
+      </script>
+    </section>
+  </body>
 </html>

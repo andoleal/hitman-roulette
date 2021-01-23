@@ -7,7 +7,7 @@ function createContainerObject() {
 	
 	//The Vector is missing due to way too many workarounds for dribbleondo to get that mission working properly.
 	var season1 = [showstopper,hh,wot,agc,icon,landslide,ahbos,c27,ff,si,ts,ta,pz];
-	var season2 = [nc,tfl,ths,cag,al,tas,gh];
+	var season2 = [nc,tfl,ths,cag,al,tas,gh,eots,iog,tlr,ast,abp];
 	
 	var randomMissionList = [];
 
@@ -117,24 +117,23 @@ function createWeaponList(container) {
 //Create the disguise list
 //reads the "entry" field in mission_information
 function createDisguiseList(container, mission_information) {
-	var disguises = [];
-	// Remove "Ninja" and "47 in his Suit" from potential disguises
-	// when starting in an undercover location
-	// The first disguise in the list is always the non-undercover one
-	var undercover_start = suitStarts.indexOf(mission_information.entry) === -1;
-	if (undercover_start)
-		container.disguises.splice(0,1);
-	
-	//copy the disguise list, add  " as " to every element, then shuffle it
-	if (document.getElementById("disguise").checked)
-		disguises =
-			container.disguises.slice().map(function(e){ return " as " + e; });
-	else
-		disguises = ["", "", "", "", ""];
-	
-	shuffle(disguises);
-	return disguises;
-};
+  var disguises = [];
+  // Remove "Ninja" and "47 in his Suit" from potential disguises
+  // when starting in an undercover location
+  // The first disguise in the list is always the non-undercover one
+  var undercover_start = suitStarts.indexOf(mission_information.entry) === -1;
+  if (undercover_start) container.disguises.splice(0, 1);
+
+  //copy the disguise list, add  " as " to every element, then shuffle it
+  if (document.getElementById("disguise").checked)
+    disguises = container.disguises.slice().map(function(e) {
+      return " as " + e;
+    });
+  else disguises = ["", "", "", "", ""];
+
+  shuffle(disguises);
+  return disguises;
+}
 
 //Chooses targets and kill methods
 function createTargetList(container) {
@@ -313,74 +312,70 @@ function button_MakeItGoLoadout(){
 }
 
 //adds x to the history stack for a maximum of 20 most recent runs
-function history_push(x){
-	redo_stack = [];
-	history_past.push(x);
-	if(history_past.length > 20)
-		history_past.shift();
-	
-	//history exists, enable undo_nappi
-	if(history_past.length > 1)
-		document.getElementById("undo_nappi").disabled = false;
-	// disable redo_nappi
-	document.getElementById("redo_nappi").disabled = true;
-}
+function history_push(x) {
+  redo_stack = [];
+  history_past.push(x);
+  if (history_past.length > 20) history_past.shift();
 
+  //history exists, enable undo_nappi
+  if (history_past.length > 1)
+    document.getElementById("undo_nappi").disabled = false;
+  // disable redo_nappi
+  document.getElementById("redo_nappi").disabled = true;
+}
 
 // undo and redo functions, affect global state
-function history_undo(){
-	if(history_past.length < 2)
-		return;
-	
-	//add the currently displayed result to the redo stack
-	redo_stack.push(history_past.pop());
-	var previous = history_past[history_past.length - 1];
-	writeEverything(previous);
-	
-	// enable redo_nappi
-	document.getElementById("redo_nappi").disabled = false;
-	//history exists, enable undo_nappi
-	if(history_past.length < 2)
-		document.getElementById("undo_nappi").disabled = true;
+function history_undo() {
+  if (history_past.length < 2) return;
+
+  //add the currently displayed result to the redo stack
+  redo_stack.push(history_past.pop());
+  var previous = history_past[history_past.length - 1];
+  writeEverything(previous);
+
+  // enable redo_nappi
+  document.getElementById("redo_nappi").disabled = false;
+  //history exists, enable undo_nappi
+  if (history_past.length < 2)
+    document.getElementById("undo_nappi").disabled = true;
 }
 
-function history_redo(){
-	if(redo_stack.length < 1)
-		return;
-	
-	history_past.push(redo_stack.pop());
-	var previous = history_past[history_past.length - 1];
-	writeEverything(previous);
-	
-	
-	//history exists, enable undo_nappi
-	if(history_past.length > 1)
-		document.getElementById("undo_nappi").disabled = false;
-	// disable redo_nappi
-	if(redo_stack.length < 1)
-		document.getElementById("redo_nappi").disabled = true;
+function history_redo() {
+  if (redo_stack.length < 1) return;
+
+  history_past.push(redo_stack.pop());
+  var previous = history_past[history_past.length - 1];
+  writeEverything(previous);
+
+  //history exists, enable undo_nappi
+  if (history_past.length > 1)
+    document.getElementById("undo_nappi").disabled = false;
+  // disable redo_nappi
+  if (redo_stack.length < 1)
+    document.getElementById("redo_nappi").disabled = true;
 }
 
 //Displays/hides the options
 function showFilters() {
-	var section = document.getElementById('filters');
-	var nappi = document.getElementById('filterbutton');
-	if (section.style.display !== "none") {
-		section.style.display = "none";
-		nappi.innerHTML = "Show options";
-	} else {
-		section.style.display = "block"
-		nappi.innerHTML = "Hide options";
-	}
-};
+  var section = document.getElementById("filters");
+  var nappi = document.getElementById("filterbutton");
+  if (section.style.display !== "none") {
+    section.style.display = "none";
+    nappi.innerHTML = "Show options";
+  } else {
+    section.style.display = "block";
+    nappi.innerHTML = "Hide options";
+  }
+}
 
 //Shuffles an array
 function shuffle(array) {
-  var m = array.length, t, i;
-  
+  var m = array.length,
+    t,
+    i;
+
   // While there remain elements to shuffle…
   while (m) {
-
     // Pick a remaining element…
     i = Math.floor(Math.random() * m--);
 
@@ -391,4 +386,4 @@ function shuffle(array) {
   }
 
   return array;
-};
+}
