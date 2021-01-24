@@ -1584,7 +1584,17 @@ var ditf = {
   ],
   meleeLocations: {},
   targetList: ["Alexa Carlisle"],
-  contractTargets: [],
+  contractTargets: [
+    "Top floor mansion staff member Jake Watts",
+    "Flirting maid Annabel Jones",
+    "Private investigator Phinas Whitmer",
+    "Mansion staff member in the kitchen Theo Willis",
+    "Butler Mr. Fernsby",
+    "River side mansion guard Samuel Simpson",
+    "Gardener near fountain Elliot Knight",
+    "Photographer Flynn Sharp",
+    "Undertaker Leonard Parsons"
+  ],
   entry: [
     "Main Road",
     "Main Road (family meeting)",
