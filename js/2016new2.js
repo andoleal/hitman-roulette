@@ -1584,13 +1584,17 @@ var ditf = {
     "Library",
     "Zachary's Bedroom"
   ],
-  exit: ["The Motorcycle", "The Hearse", "The River Bridge", "The Boat"],
+  exit: ["Motorcycle", "Hearse", "River Bridge", "Boat"],
   disguises: [
+    "47 in his Suit",
     "Bodyguard",
-    "Butler",
     "Mansion Guard",
     "Photographer",
-    "Private Investigator"
+    "Private Investigator",
+    "Lawyer",
+    "Undertaker",
+    "Gardener",
+    "Mansion Staff"
   ]
 };
 
