@@ -1553,6 +1553,47 @@ var ototw = {
   ]
 };
 
+var ditf = {
+  missionTitle: "Death In The Family",
+  map: "",
+  melee: [
+    "Kitchen Knife",
+    "Screwdriver",
+    "Cleaver",
+    "Letter Opener",
+    "Saber",
+    "Fiber Wire",
+    "Barber Razor",
+    "Unicorn Horn",
+    "Scissors",
+    "Garden Fork",
+    "Shears",
+    "Folding Knife",
+    "Hatchet"
+  ],
+  meleeLocations: {},
+  targetList: ["Alexa Carlisle"],
+  contractTargets: [],
+  entry: [
+    "Main Road",
+    "Main Road (family meeting)",
+    "Garden",
+    "Staff Room",
+    "Behind Mansion",
+    "Behind Mansion (family meeting)",
+    "Library",
+    "Zachary's Bedroom"
+  ],
+  exit: ["The Motorcycle", "The Hearse", "The River Bridge", "The Boat"],
+  disguises: [
+    "Bodyguard",
+    "Butler",
+    "Mansion Guard",
+    "Photographer",
+    "Private Investigator"
+  ]
+};
+
 var mission_names_map = {
   TSS: showstopper,
   HH: hh,
@@ -1579,7 +1620,8 @@ var mission_names_map = {
   TLR: tlr,
   AST: ast,
   ABP: abp,
-  OTOTW: ototw
+  OTOTW: ototw,
+  DITF: ditf
 };
 
 var killTypesMap = {
