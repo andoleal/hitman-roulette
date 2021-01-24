@@ -1528,7 +1528,18 @@ var ototw = {
   ],
   meleeLocations: {},
   targetList: ["Carl Ingram", "Marcus Stuyvesant"],
-  contractTargets: [],
+  contractTargets: [
+    "Penthouse guard near guest bedroom Zaheer Pasha",
+    "Maintenance staff in ventilation area Yoshi Morita",
+    "Famous Chef Roberto Franculitta",
+    "Penthouse receptionist In'aam Mahdavi",
+    "Art crew member in the control room Michael Tolman",
+    "Artist Lucy Phillips",
+    "Sheik Omar Al'Ghazali",
+    "Kitchen staff member Mobeen Dar",
+    "Storage room event staff Lalit Mandal",
+    "Penthouse reception assistant Kelly To"
+  ],
   entry: [
     "Atrium Lobby",
     "Meeting Room",
