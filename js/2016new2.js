@@ -59,7 +59,9 @@ var suitStarts = [
   "Main Road",
   "Behind Mansion",
   "Main Road (family meeting)",
-  "Behind Mansion (family meeting)"
+  "Behind Mansion (family meeting)",
+  "Radio Tower",
+  "Bus Stop"
 ];
 
 var disguiseExits = ["Ambulance", "Trash Truck"];
@@ -1623,6 +1625,62 @@ var ditf = {
   ]
 };
 
+var apred = {
+  missionTitle: "Apex Predator",
+  map: "",
+  melee: [
+    "Screwdriver",
+    "Fiber Wire",
+    "Kitchen Knife",
+    "Hobby Knife",
+    "Garden Fork",
+    "Fire Axe",
+    "Old Axe",
+    "Battle Axe"
+  ],
+  meleeLocations: {
+    Old_Axe: "- At the end of some tubing near the water channels",
+    Battle_Axe: "- In the biker hangout<br>- Buried near the pipes (requires shovel)"
+  },
+  numberOfTargets: 5,
+  targetList: [
+    "Agent Rhodes", 
+    "Agent Swan", 
+    "Agent Banner", 
+    "Agent Tremaine", 
+    "Agent Green", 
+    "Agent Thames", 
+    "Agent Chamberlin", 
+    "Agent Montgomery", 
+    "Agent Lowenthal", 
+    "Agent Davenport"
+  ],
+  contractTargets: [],
+  entry: [
+    "Bus Stop",
+    "Club Entrance",
+    "Projection Bar",
+    "Radio Tower",
+    "Chill Out",
+    "DJ Booth",
+    "Biker Hangout"
+  ],
+  exit: ["Scooter", "Motorcycle", "Tunnel", "Bicycle"],
+  disguises: [
+    "47 in his Suit",
+    "Bartender",
+    "Biker",
+    "Club Crew",
+    "Club Security",
+    "Dealer",
+    "Delivery Guy",
+    "DJ",
+    "Florida Man",
+    "Rolf Hirschmüller",
+    "Technician"
+  ]
+};
+
 var mission_names_map = {
   TSS: showstopper,
   HH: hh,
@@ -1650,7 +1708,8 @@ var mission_names_map = {
   AST: ast,
   ABP: abp,
   OTOTW: ototw,
-  DITF: ditf
+  DITF: ditf,
+  APRED: apred
 };
 
 var killTypesMap = {

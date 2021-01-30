@@ -8,7 +8,7 @@ function createContainerObject() {
 	//The Vector is missing due to way too many workarounds for dribbleondo to get that mission working properly.
 	var season1 = [showstopper,hh,wot,agc,icon,landslide,ahbos,c27,ff,si,ts,ta,pz];
   var season2 = [nc,tfl,ths,cag,al,tas,gh,eots,iog,tlr,ast,abp];
-  var season3 = [ototw,ditf];
+  var season3 = [ototw,ditf,apred];
 	
 	var randomMissionList = [];
 
@@ -171,7 +171,14 @@ function createTargetList(container) {
 		targets = ["Elusive Target"];
 	else {
 		// Copy the missions' target list
-		targets = container.targetList.slice();
+		if (container.numberOfTargets == undefined)
+			targets = container.targetList.slice();
+		else
+		{
+			targets = container.targetList.slice();
+			shuffle(targets);
+			targets = targets.slice(0, container.numberOfTargets);
+		}
 	}
 	
 	return targets;
