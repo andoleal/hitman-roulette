@@ -55,7 +55,11 @@ var suitStarts = [
   "Resort Pier",
   "Shark Hut",
   "Resort Pool",
-  "Atrium Lobby"
+  "Atrium Lobby",
+  "Main Road",
+  "Behind Mansion",
+  "Main Road (family meeting)",
+  "Behind Mansion (family meeting)"
 ];
 
 var disguiseExits = ["Ambulance", "Trash Truck"];
