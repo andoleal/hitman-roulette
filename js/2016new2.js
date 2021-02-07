@@ -1640,7 +1640,8 @@ var apred = {
     "Garden Fork",
     "Fire Axe",
     "Old Axe",
-    "Battle Axe"
+    "Battle Axe",
+    "Scrap Sword"
   ],
   meleeLocations: {
     Old_Axe: "- At the end of some tubing near the water channels",
