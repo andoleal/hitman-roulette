@@ -1530,10 +1530,11 @@ var ototw = {
     "Screwdriver",
     "Cleaver",
     "Fire Axe",
+    "Scissors",
+    "Folding Knife",
     "Letter Opener",
     "Fiber Wire",
-    "Ornate Skimitar",
-    "Model of the Sceptre"
+    "Ornate Skimitar"
   ],
   meleeLocations: {},
   targetList: ["Carl Ingram", "Marcus Stuyvesant"],
