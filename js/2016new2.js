@@ -61,7 +61,10 @@ var suitStarts = [
   "Main Road (family meeting)",
   "Behind Mansion (family meeting)",
   "Radio Tower",
-  "Bus Stop"
+  "Bus Stop",
+  "Train Station",
+  "River-side Walkway",
+  "Balcony"
 ];
 
 var disguiseExits = ["Ambulance", "Trash Truck"];
@@ -1680,6 +1683,57 @@ var apred = {
   ]
 };
 
+var eoae = {
+  missionTitle: "End Of An Era",
+  map: "https://www.hitmaps.com/games/hitman3/chongqing/end-of-an-era/professional",
+  melee: [
+    "Screwdriver",
+    "Fiber Wire",
+    "Tanto",
+    "Letter Opener",
+    "Fire Axe",
+    "Kitchen Knife",
+    "Garden Fork",
+    "Scissors",
+    "Hobby Knife",
+    "Cleaver",
+    "Scrap Sword"
+  ],
+  meleeLocations: {
+    Tanto: "- Hush therapy room",
+    Garden_Fork: "- Balcony starting location"
+  },
+  targetList: [
+    "Hush",
+    "Imogen Royce"
+  ],
+  contractTargets: [],
+  entry: [
+    "Train Station",
+    "River-side Walkway",
+    "Balcony",
+    "Restaurant Kitchen",
+    "Facility Rooftop",
+    "The Block",
+    "Facility Locker Room"
+  ],
+  exit: ["Train Station", "Facility Emergency Exit", "Manhole", "Scooter", "Apartment Safe House"],
+  disguises: [
+    "47 in his Suit",
+    "Block Guard",
+    "Dumpling Cook",
+    "Facility Analyst",
+    "Facility Engineer",
+    "Facilty Guard",
+    "Facility Security",
+    "Homeless Person",
+    "Perfect Test Subject",
+    "Researcher",
+    "The Board Member",
+    "Street Guard"
+  ]
+};
+
 var mission_names_map = {
   TSS: showstopper,
   HH: hh,
@@ -1708,7 +1762,8 @@ var mission_names_map = {
   ABP: abp,
   OTOTW: ototw,
   DITF: ditf,
-  APRED: apred
+  APRED: apred,
+  EOAE: eoae
 };
 
 var killTypesMap = {
