@@ -144,7 +144,7 @@ var generic = {
 
 var showstopper = {
   missionTitle: "The Showstopper",
-  map: "https://www.hitman2maps.com/games/hitman/paris/the-showstopper/professional",
+  map: "https://www.hitmaps.com/games/hitman/paris/the-showstopper/professional",
   melee: [
     "Screwdriver",
     "Letter Opener",
@@ -254,7 +254,7 @@ var hh = {
 
 var wot = {
   missionTitle: "World of Tomorrow",
-  map: "https://www.hitman2maps.com/games/hitman/sapienza/world-of-tomorrow/professional",
+  map: "https://www.hitmaps.com/games/hitman/sapienza/world-of-tomorrow/professional",
   melee: [
     "Battle Axe",
     "Old Axe",
@@ -343,7 +343,7 @@ var wot = {
 
 var icon = {
   missionTitle: "The Icon",
-  map: "https://www.hitman2maps.com/games/hitman/sapienza/the-icon/standard",
+  map: "https://www.hitmaps.com/games/hitman/sapienza/the-icon/standard",
   melee: [
     "Battle Axe",
     "Cleaver",
@@ -381,7 +381,7 @@ var icon = {
 
 var landslide = {
   missionTitle: "Landslide",
-  map: "https://www.hitman2maps.com/games/hitman/sapienza/landslide/standard",
+  map: "https://www.hitmaps.com/games/hitman/sapienza/landslide/standard",
   melee: [
     "Fiber Wire",
     "Screwdriver",
@@ -442,7 +442,7 @@ var landslide = {
 
 var agc = {
   missionTitle: "A Gilded Cage",
-  map: "https://www.hitman2maps.com/games/hitman/marrakesh/a-gilded-cage/professional",
+  map: "https://www.hitmaps.com/games/hitman/marrakesh/a-gilded-cage/professional",
   melee: [
     "Battle Axe",
     "Fire Axe",
@@ -513,7 +513,7 @@ var agc = {
 
 var ahbos = {
   missionTitle: "A House Built on Sand",
-  map: "https://www.hitman2maps.com/games/hitman/marrakesh/a-house-built-on-sand/standard",
+  map: "https://www.hitmaps.com/games/hitman/marrakesh/a-house-built-on-sand/standard",
   melee: [
     "Battle Axe",
     "Cleaver",
@@ -557,7 +557,7 @@ var ahbos = {
 
 var c27 = {
   missionTitle: "Club 27",
-  map: "https://www.hitman2maps.com/games/hitman/bangkok/club-27/professional",
+  map: "https://www.hitmaps.com/games/hitman/bangkok/club-27/professional",
   melee: [
     "Kitchen Knife",
     "Screwdriver",
@@ -623,7 +623,7 @@ var c27 = {
 
 var ff = {
   missionTitle: "Freedom Fighters",
-  map: "https://www.hitman2maps.com/games/hitman/colorado/freedom-fighters/professional",
+  map: "https://www.hitmaps.com/games/hitman/colorado/freedom-fighters/professional",
   melee: ["Cleaver", "Kitchen Knife", "Screwdriver", "Fiber Wire"],
   meleeLocations: {
 	Cleaver: "- Field kitchen",
@@ -668,7 +668,7 @@ var ff = {
 
 var si = {
   missionTitle: "Situs Inversus",
-  map: "https://www.hitman2maps.com/games/hitman/hokkaido/situs-inversus/professional",
+  map: "https://www.hitmaps.com/games/hitman/hokkaido/situs-inversus/professional",
   melee: [
     "Fiber Wire",
     "Scalpel",
@@ -750,7 +750,7 @@ var si = {
 
 var ts = {
   missionTitle: "The Source",
-  map: "https://www.hitman2maps.com/games/hitman/bangkok/the-source/standard",
+  map: "https://www.hitmaps.com/games/hitman/bangkok/the-source/standard",
   melee: [
     "Kitchen Knife",
     "Screwdriver",
@@ -794,7 +794,7 @@ var ts = {
 
 var ta = {
   missionTitle: "The Author",
-  map: "https://www.hitman2maps.com/games/hitman/sapienza/the-author/standard",
+  map: "https://www.hitmaps.com/games/hitman/sapienza/the-author/standard",
   melee: [
     "Fire Axe",
     "Kitchen Knife",
@@ -823,7 +823,7 @@ var ta = {
 
 var pz = {
   missionTitle: "Patient Zero",
-  map: "https://www.hitman2maps.com/games/hitman/hokkaido/patient-zero/standard",
+  map: "https://www.hitmaps.com/games/hitman/hokkaido/patient-zero/standard",
   melee: [
     "Fiber Wire",
     "Scalpel",
@@ -867,7 +867,7 @@ var pz = {
 
 var nc = {
   missionTitle: "Nightcall",
-  map: "https://www.hitman2maps.com/games/hitman2/hawkes-bay/nightcall/professional",
+  map: "https://www.hitmaps.com/games/hitman2/hawkes-bay/nightcall/professional",
   melee: [
     "Fiber Wire",
     "Folding Knife",
@@ -900,7 +900,7 @@ var nc = {
 
 var tfl = {
   missionTitle: "The Finish Line",
-  map: "https://www.hitman2maps.com/games/hitman2/miami/finish-line/professional",
+  map: "https://www.hitmaps.com/games/hitman2/miami/finish-line/professional",
   melee: [
     "Fiber Wire",
     "Amputation Knife",
@@ -1002,7 +1002,7 @@ var tfl = {
 
 var ths = {
   missionTitle: "Three-headed Serpent",
-  map: "https://www.hitman2maps.com/games/hitman2/santa-fortuna/three-headed-serpent/professional",
+  map: "https://www.hitmaps.com/games/hitman2/santa-fortuna/three-headed-serpent/professional",
   melee: [
     "Fiber Wire",
     "Screwdriver",
@@ -1086,7 +1086,7 @@ var ths = {
 
 var cag = {
   missionTitle: "Chasing a Ghost",
-  map: "https://www.hitman2maps.com/games/hitman2/mumbai/chasing-a-ghost/professional",
+  map: "https://www.hitmaps.com/games/hitman2/mumbai/chasing-a-ghost/professional",
   melee: [
     "Fiber Wire",
     "Beak Axe",
@@ -1104,7 +1104,7 @@ var cag = {
   ],
   meleeLocations: {
 	Fiber_Wire: "",
-    Beak_Axe: "- Hard to explain, use <a href=\"https://hitman2maps.com/games/hitman2/mumbai/chasing-a-ghost/professional\" target=\"_blank\">hitman2maps.com</a>",
+    Beak_Axe: "- Hard to explain, use <a href=\"https://hitmaps.com/games/hitman2/mumbai/chasing-a-ghost/professional\" target=\"_blank\">hitmaps.com</a>",
     Old_Axe: "- Near metal forge starting location",
     Scissors: "- The tailor's shop<br>- Vanya's private train car<br>- Rangan's tower dressing room, the photoshoot starting location",
     Amputation_Knife: "- In the train car that's near the meditation pond",
@@ -1177,7 +1177,7 @@ var cag = {
 
 var al = {
   missionTitle: "Another Life",
-  map: "https://www.hitman2maps.com/games/hitman2/whittleton-creek/another-life/professional",
+  map: "https://www.hitmaps.com/games/hitman2/whittleton-creek/another-life/professional",
   melee: [
     "Fiber Wire",
     "Beak Axe",
@@ -1266,7 +1266,7 @@ var al = {
 
 var tas = {
   missionTitle: "The Ark Society",
-  map: "https://www.hitman2maps.com/games/hitman2/isle-of-sgail/ark-society/professional",
+  map: "https://www.hitmaps.com/games/hitman2/isle-of-sgail/ark-society/professional",
   melee: [
     "Fiber Wire",
     "Battle Axe",
@@ -1338,7 +1338,7 @@ var tas = {
 
 var gh = {
   missionTitle: "Golden Handshake",
-  map: "https://hitman2maps.com/games/hitman2/new-york/golden-handshake/professional",
+  map: "https://hitmaps.com/games/hitman2/new-york/golden-handshake/professional",
   melee: [
     "Screwdriver",
     "Letter Opener",
