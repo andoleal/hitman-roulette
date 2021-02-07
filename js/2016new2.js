@@ -1524,7 +1524,7 @@ var abp = {
 
 var ototw = {
   missionTitle: "On Top Of The World",
-  map: "",
+  map: "https://www.hitmaps.com/games/hitman3/dubai/on-top-of-the-world/professional",
   melee: [
     "Kitchen Knife",
     "Screwdriver",
@@ -1576,7 +1576,7 @@ var ototw = {
 
 var ditf = {
   missionTitle: "Death In The Family",
-  map: "",
+  map: "https://www.hitmaps.com/games/hitman3/dartmoor/death-in-the-family/professional",
   melee: [
     "Kitchen Knife",
     "Screwdriver",
@@ -1631,7 +1631,7 @@ var ditf = {
 
 var apred = {
   missionTitle: "Apex Predator",
-  map: "",
+  map: "https://www.hitmaps.com/games/hitman3/berlin/apex-predator/professional",
   melee: [
     "Screwdriver",
     "Fiber Wire",
