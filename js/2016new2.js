@@ -1657,7 +1657,6 @@ var apred = {
   ],
   contractTargets: [],
   entry: [
-    "Bus Stop",
     "Club Entrance",
     "Projection Bar",
     "Radio Tower",
